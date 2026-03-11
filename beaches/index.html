@@ -1,0 +1,49 @@
+---
+layout: default
+title: Dog-Friendly Beaches in Dumfries and Galloway
+description: The best dog-friendly beaches in Dumfries and Galloway on the Solway Coast. Find beaches with no seasonal bans, safe swimming and easy parking for dogs and owners.
+---
+<style>
+  .category-intro { max-width: 760px; margin-bottom: 2.5rem; }
+  .category-intro h1 { font-size: 2rem; color: var(--green-dark); margin-bottom: 0.75rem; }
+  .category-intro p { font-size: 1.05rem; color: var(--text-light); line-height: 1.7; margin-bottom: 0.75rem; }
+  .info-box { background: #e8f4fd; border: 1px solid #b8d8f0; border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 2rem; font-family: Arial, Helvetica, sans-serif; font-size: 0.92rem; color: #1a4a6b; }
+  .info-box strong { display: block; margin-bottom: 0.3rem; }
+  .listings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+  .listing-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.5rem; transition: transform 0.15s; }
+  .listing-card:hover { transform: translateY(-2px); }
+  .listing-card h2 { font-size: 1.1rem; color: var(--green-dark); margin: 0; }
+  .listing-card h2 a { color: inherit; }
+  .listing-card h2 a:hover { color: var(--green-mid); text-decoration: none; }
+  .listing-card .excerpt { font-family: Arial, Helvetica, sans-serif; font-size: 0.88rem; color: var(--text-light); flex: 1; }
+  .listing-card .meta { font-family: Arial, Helvetica, sans-serif; font-size: 0.8rem; color: var(--text-light); }
+  .empty-state { background: var(--sand); border-radius: var(--radius); padding: 2rem; text-align: center; color: var(--text-light); font-family: Arial, Helvetica, sans-serif; }
+</style>
+
+<div class="category-intro">
+  <h1>Dog-Friendly Beaches in Dumfries and Galloway</h1>
+  <p>The Solway Coast of Dumfries and Galloway is one of Scotland's best-kept secrets — a sweep of sandy beaches, mudflats, rocky coves and tidal estuaries stretching from Gretna in the east to the Rhins of Galloway in the west. For dog owners, it's a dream destination.</p>
+  <p>Many D&amp;G beaches have no seasonal dog restrictions at all, making them ideal for year-round visits. Even where restrictions apply (typically May to September on certain stretches), there are always nearby alternatives where your dog can run free.</p>
+</div>
+
+<div class="info-box">
+  <strong>&#x2139;&#xFE0F; Seasonal restrictions note</strong>
+  Some beaches impose dog restrictions between May and September to protect nesting birds and families. Always check local signage before letting your dog off the lead. The beaches listed here are dog-friendly — individual listings note any seasonal rules.
+</div>
+
+{% assign beach_listings = site.listings | where: "category", "beach" %}
+{% if beach_listings.size > 0 %}
+<div class="listings-grid">
+  {% for listing in beach_listings %}
+  <div class="listing-card">
+    <h2><a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a></h2>
+    <span class="badge badge-beach" style="align-self:flex-start;">Beach</span>
+    <p class="excerpt">{{ listing.description | default: listing.content | strip_html | truncate: 130 }}</p>
+    {% if listing.os_grid %}<div class="meta">&#x1F5FA; OS: {{ listing.os_grid }}</div>{% endif %}
+    <a href="{{ listing.url }}" class="btn btn-outline" style="margin-top:0.25rem;text-align:center;">View Beach &rarr;</a>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty-state"><p>Beach listings coming soon!</p></div>
+{% endif %}

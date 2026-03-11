@@ -1,0 +1,218 @@
+---
+layout: default
+---
+<style>
+  /* ── HERO ── */
+  .hero {
+    background: linear-gradient(135deg, var(--green-dark) 0%, var(--green-mid) 60%, var(--green-light) 100%);
+    color: var(--white);
+    border-radius: var(--radius);
+    padding: 4rem 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+    opacity: 0.6;
+  }
+  .hero-content { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; }
+  .hero h1 { font-size: 2.5rem; line-height: 1.15; margin-bottom: 1rem; text-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+  .hero p { font-size: 1.2rem; opacity: 0.92; margin-bottom: 1.75rem; font-family: Arial, Helvetica, sans-serif; }
+  .hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .hero-cta .btn { font-size: 1rem; padding: 0.7rem 1.6rem; }
+  .btn-hero-primary { background: var(--white); color: var(--green-dark); font-weight: 700; }
+  .btn-hero-primary:hover { background: var(--cream); color: var(--green-dark); }
+  .btn-hero-outline { background: transparent; color: var(--white); border: 2px solid rgba(255,255,255,0.7); }
+  .btn-hero-outline:hover { background: rgba(255,255,255,0.15); color: var(--white); }
+  @media (max-width: 640px) { .hero { padding: 2.5rem 1.25rem; } .hero h1 { font-size: 1.75rem; } .hero p { font-size: 1rem; } }
+
+  /* ── SECTION HEADINGS ── */
+  .section-heading {
+    font-size: 1.6rem;
+    color: var(--green-dark);
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--green-light);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .section-heading a { font-size: 0.9rem; font-family: Arial, Helvetica, sans-serif; font-weight: 600; color: var(--green-mid); }
+
+  /* ── CATEGORY CARDS ── */
+  .categories-section { margin-bottom: 3.5rem; }
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  .cat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    box-shadow: var(--shadow);
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+    display: block;
+  }
+  .cat-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,0.13); border-color: var(--green-light); text-decoration: none; color: var(--text); }
+  .cat-card .cat-icon { font-size: 2.2rem; margin-bottom: 0.6rem; display: block; }
+  .cat-card .cat-name { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 0.9rem; color: var(--green-dark); text-transform: uppercase; letter-spacing: 0.03em; }
+  .cat-card .cat-desc { font-family: Arial, Helvetica, sans-serif; font-size: 0.78rem; color: var(--text-light); margin-top: 0.3rem; }
+
+  /* ── LISTING CARDS ── */
+  .listings-section { margin-bottom: 3.5rem; }
+  .listing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+  .listing-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.4rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.15s, box-shadow 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .listing-card:hover { transform: translateY(-2px); box-shadow: 0 5px 16px rgba(0,0,0,0.12); }
+  .listing-card-title { font-size: 1.05rem; font-weight: bold; color: var(--green-dark); }
+  .listing-card-title a { color: inherit; }
+  .listing-card-title a:hover { color: var(--green-mid); text-decoration: none; }
+  .listing-card-excerpt { font-size: 0.88rem; color: var(--text-light); font-family: Arial, Helvetica, sans-serif; flex: 1; }
+  .listing-card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 0.25rem; }
+
+  /* ── POST CARDS ── */
+  .posts-section { margin-bottom: 2rem; }
+  .post-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+  }
+  .post-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.4rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .post-card:hover { transform: translateY(-2px); }
+  .post-card-date { font-family: Arial, Helvetica, sans-serif; font-size: 0.78rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.05em; }
+  .post-card-title { font-size: 1.05rem; color: var(--green-dark); font-weight: bold; }
+  .post-card-title a { color: inherit; }
+  .post-card-title a:hover { color: var(--green-mid); text-decoration: none; }
+  .post-card-excerpt { font-family: Arial, Helvetica, sans-serif; font-size: 0.88rem; color: var(--text-light); flex: 1; }
+  .post-card-read-more { font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--green-mid); margin-top: 0.25rem; }
+</style>
+
+{{ content }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Find Dog-Friendly Places in Dumfries &amp; Galloway</h1>
+    <p>Discover the best walks, beaches, pubs, cafes and places to stay that welcome you and your dog across Scotland's most beautiful region.</p>
+    <div class="hero-cta">
+      <a href="/walks/" class="btn btn-hero-primary">Explore Walks</a>
+      <a href="/accommodation/" class="btn btn-hero-outline">Find Accommodation</a>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORY CARDS -->
+<section class="categories-section">
+  <h2 class="section-heading">Browse by Category</h2>
+  <div class="categories-grid">
+    <a class="cat-card" href="/walks/">
+      <span class="cat-icon">&#x1F6B6;</span>
+      <span class="cat-name">Walks</span>
+      <span class="cat-desc">Trails &amp; forest paths</span>
+    </a>
+    <a class="cat-card" href="/pubs-cafes/">
+      <span class="cat-icon">&#x1F37A;</span>
+      <span class="cat-name">Pubs &amp; Cafes</span>
+      <span class="cat-desc">Dog-friendly venues</span>
+    </a>
+    <a class="cat-card" href="/beaches/">
+      <span class="cat-icon">&#x1F3D6;</span>
+      <span class="cat-name">Beaches</span>
+      <span class="cat-desc">Solway coast gems</span>
+    </a>
+    <a class="cat-card" href="/accommodation/">
+      <span class="cat-icon">&#x1F3E1;</span>
+      <span class="cat-name">Accommodation</span>
+      <span class="cat-desc">Stay with your dog</span>
+    </a>
+    <a class="cat-card" href="/vets-groomers/">
+      <span class="cat-icon">&#x2695;&#xFE0F;</span>
+      <span class="cat-name">Vets &amp; Groomers</span>
+      <span class="cat-desc">Local pet services</span>
+    </a>
+    <a class="cat-card" href="/events/">
+      <span class="cat-icon">&#x1F4C5;</span>
+      <span class="cat-name">Events</span>
+      <span class="cat-desc">Dog-friendly events</span>
+    </a>
+  </div>
+</section>
+
+<!-- RECENT LISTINGS -->
+<section class="listings-section">
+  <h2 class="section-heading">
+    Recent Listings
+    <a href="/listings/">View all &rarr;</a>
+  </h2>
+  <div class="listing-cards">
+    {% assign recent_listings = site.listings | sort: 'date' | reverse | limit: 6 %}
+    {% for listing in recent_listings %}
+    <div class="listing-card">
+      <div class="listing-card-title"><a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a></div>
+      {% assign cat = listing.category | default: listing.categories[0] %}
+      {% if cat %}<span class="badge badge-{{ cat }}">{{ cat | replace: '-', ' ' | capitalize }}</span>{% endif %}
+      {% if listing.description %}
+        <p class="listing-card-excerpt">{{ listing.description | truncate: 100 }}</p>
+      {% else %}
+        <p class="listing-card-excerpt">{{ listing.content | strip_html | truncate: 100 }}</p>
+      {% endif %}
+      <div class="listing-card-footer">
+        {% if listing.address %}<small style="color:var(--text-light);font-family:Arial,sans-serif;font-size:0.78rem;">{{ listing.address | truncate: 40 }}</small>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- RECENT POSTS -->
+<section class="posts-section">
+  <h2 class="section-heading">
+    Latest Guides &amp; Articles
+    <a href="/guides/">View all &rarr;</a>
+  </h2>
+  <div class="post-cards">
+    {% for post in site.posts limit: 3 %}
+    <div class="post-card">
+      <span class="post-card-date">{{ post.date | date: "%d %b %Y" }}</span>
+      <div class="post-card-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      <a class="post-card-read-more" href="{{ post.url }}">Read more &rarr;</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>

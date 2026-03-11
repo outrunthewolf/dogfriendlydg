@@ -1,0 +1,47 @@
+---
+layout: default
+title: Dog-Friendly Walks in Dumfries and Galloway
+description: Discover the best dog-friendly walks in Dumfries and Galloway — from Galloway Forest Park to the Solway coast. Trails for every fitness level, all welcoming dogs.
+---
+<style>
+  .category-intro { max-width: 760px; margin-bottom: 2.5rem; }
+  .category-intro h1 { font-size: 2rem; color: var(--green-dark); margin-bottom: 0.75rem; }
+  .category-intro p { font-size: 1.05rem; color: var(--text-light); line-height: 1.7; margin-bottom: 0.75rem; }
+  .listings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+  .listing-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.5rem; transition: transform 0.15s; }
+  .listing-card:hover { transform: translateY(-2px); }
+  .listing-card h2 { font-size: 1.1rem; color: var(--green-dark); margin: 0; }
+  .listing-card h2 a { color: inherit; }
+  .listing-card h2 a:hover { color: var(--green-mid); text-decoration: none; }
+  .listing-card .excerpt { font-family: Arial, Helvetica, sans-serif; font-size: 0.88rem; color: var(--text-light); flex: 1; }
+  .listing-card .meta { font-family: Arial, Helvetica, sans-serif; font-size: 0.8rem; color: var(--text-light); display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .empty-state { background: var(--sand); border-radius: var(--radius); padding: 2rem; text-align: center; color: var(--text-light); font-family: Arial, Helvetica, sans-serif; }
+</style>
+
+<div class="category-intro">
+  <h1>Dog-Friendly Walks in Dumfries and Galloway</h1>
+  <p>Dumfries and Galloway is a paradise for dogs and their owners. From the ancient oak woods of Galloway Forest Park to the wide open shores of the Solway Firth, the region offers some of Scotland's finest dog-friendly walking country.</p>
+  <p>Whether you're after a gentle riverside stroll, a challenging hill walk with panoramic views, or a forest trail where your dog can splash through burns and chase scents, you'll find it here. Browse our handpicked selection of the best dog-friendly walks across D&amp;G.</p>
+</div>
+
+{% assign walk_listings = site.listings | where: "category", "walk" %}
+{% if walk_listings.size > 0 %}
+<div class="listings-grid">
+  {% for listing in walk_listings %}
+  <div class="listing-card">
+    <h2><a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a></h2>
+    {% if listing.address %}<span class="badge badge-walk" style="align-self:flex-start;">Walk</span>{% endif %}
+    <p class="excerpt">{{ listing.description | default: listing.content | strip_html | truncate: 130 }}</p>
+    <div class="meta">
+      {% if listing.distance %}<span>&#x1F4CF; {{ listing.distance }}</span>{% endif %}
+      {% if listing.address %}<span>&#x1F4CD; {{ listing.address | truncate: 40 }}</span>{% endif %}
+    </div>
+    <a href="{{ listing.url }}" class="btn btn-outline" style="margin-top:0.25rem;text-align:center;">View Walk &rarr;</a>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+  <p>Walk listings coming soon. Check back shortly!</p>
+</div>
+{% endif %}

@@ -1,0 +1,52 @@
+---
+layout: default
+title: Dog-Friendly Events in Dumfries and Galloway
+description: Discover dog-friendly events in Dumfries and Galloway — from dog shows and country fairs to guided walks and outdoor festivals that welcome four-legged guests.
+---
+<style>
+  .category-intro { max-width: 760px; margin-bottom: 2.5rem; }
+  .category-intro h1 { font-size: 2rem; color: var(--green-dark); margin-bottom: 0.75rem; }
+  .category-intro p { font-size: 1.05rem; color: var(--text-light); line-height: 1.7; margin-bottom: 0.75rem; }
+  .listings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+  .listing-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.5rem; transition: transform 0.15s; }
+  .listing-card:hover { transform: translateY(-2px); }
+  .listing-card h2 { font-size: 1.1rem; color: var(--green-dark); margin: 0; }
+  .listing-card h2 a { color: inherit; }
+  .listing-card h2 a:hover { color: var(--green-mid); text-decoration: none; }
+  .listing-card .excerpt { font-family: Arial, Helvetica, sans-serif; font-size: 0.88rem; color: var(--text-light); flex: 1; }
+  .listing-card .meta { font-family: Arial, Helvetica, sans-serif; font-size: 0.8rem; color: var(--text-light); }
+  .empty-state { background: var(--sand); border-radius: var(--radius); padding: 2rem; text-align: center; color: var(--text-light); font-family: Arial, Helvetica, sans-serif; }
+  .submit-box { background: var(--sand); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin-top: 2.5rem; font-family: Arial, Helvetica, sans-serif; font-size: 0.92rem; }
+  .submit-box h3 { font-size: 1rem; color: var(--green-dark); margin-bottom: 0.4rem; }
+</style>
+
+<div class="category-intro">
+  <h1>Dog-Friendly Events in Dumfries and Galloway</h1>
+  <p>Dumfries and Galloway has a packed calendar of outdoor events, country shows, walking festivals and community gatherings — and many of them actively welcome well-behaved dogs. From the Galloway Country Fair to guided ranger walks through the forest, there's plenty to keep you and your four-legged companion entertained throughout the year.</p>
+  <p>We highlight events where dogs are explicitly welcomed. Always check the event's own website for the latest information on dog policies, as these can change year to year.</p>
+</div>
+
+{% assign event_listings = site.listings | where: "category", "event" %}
+{% if event_listings.size > 0 %}
+<div class="listings-grid">
+  {% for listing in event_listings %}
+  <div class="listing-card">
+    <h2><a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a></h2>
+    <span class="badge badge-event" style="align-self:flex-start;">Event</span>
+    <p class="excerpt">{{ listing.description | default: listing.content | strip_html | truncate: 130 }}</p>
+    {% if listing.event_date %}<div class="meta">&#x1F4C5; {{ listing.event_date }}</div>{% endif %}
+    {% if listing.address %}<div class="meta">&#x1F4CD; {{ listing.address }}</div>{% endif %}
+    <a href="{{ listing.url }}" class="btn btn-outline" style="margin-top:0.25rem;text-align:center;">View Event &rarr;</a>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+  <p>&#x1F4C5; Event listings coming soon — check back as we add upcoming dog-friendly events across D&amp;G.</p>
+</div>
+{% endif %}
+
+<div class="submit-box">
+  <h3>Know of a dog-friendly event?</h3>
+  <p>If you organise or know of a dog-friendly event in Dumfries and Galloway, we'd love to list it. Get in touch at <a href="mailto:hello@dogfriendlydg.co.uk">hello@dogfriendlydg.co.uk</a>.</p>
+</div>

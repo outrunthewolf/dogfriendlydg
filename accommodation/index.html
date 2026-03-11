@@ -1,0 +1,47 @@
+---
+layout: default
+title: Dog-Friendly Accommodation in Dumfries and Galloway
+description: Find dog-friendly holiday cottages, lodges, B&Bs and glamping in Dumfries and Galloway, Scotland. All properties genuinely welcome dogs.
+---
+<style>
+  .category-intro { max-width: 760px; margin-bottom: 2.5rem; }
+  .category-intro h1 { font-size: 2rem; color: var(--green-dark); margin-bottom: 0.75rem; }
+  .category-intro p { font-size: 1.05rem; color: var(--text-light); line-height: 1.7; margin-bottom: 0.75rem; }
+  .listings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+  .listing-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.5rem; transition: transform 0.15s; }
+  .listing-card:hover { transform: translateY(-2px); }
+  .listing-card h2 { font-size: 1.1rem; color: var(--green-dark); margin: 0; }
+  .listing-card h2 a { color: inherit; }
+  .listing-card h2 a:hover { color: var(--green-mid); text-decoration: none; }
+  .listing-card .excerpt { font-family: Arial, Helvetica, sans-serif; font-size: 0.88rem; color: var(--text-light); flex: 1; }
+  .listing-card .meta { font-family: Arial, Helvetica, sans-serif; font-size: 0.8rem; color: var(--text-light); }
+  .empty-state { background: var(--sand); border-radius: var(--radius); padding: 2rem; text-align: center; color: var(--text-light); font-family: Arial, Helvetica, sans-serif; }
+  .tip-box { background: #f0f7e6; border: 1px solid #b8d98a; border-radius: var(--radius); padding: 1rem 1.25rem; margin-bottom: 2rem; font-family: Arial, Helvetica, sans-serif; font-size: 0.92rem; color: var(--green-dark); }
+</style>
+
+<div class="category-intro">
+  <h1>Dog-Friendly Accommodation in Dumfries and Galloway</h1>
+  <p>Finding truly dog-friendly accommodation — where your dog is genuinely welcome rather than just tolerated — can be tricky. We've done the legwork for you. Every property listed here actively welcomes dogs, with direct loch or beach access, enclosed gardens, or dog-washing facilities.</p>
+  <p>Dumfries and Galloway offers everything from cosy self-catering cottages tucked into Galloway Forest to waterside lodges on Loch Ken and seaside B&amp;Bs along the Solway. Whether you're planning a short break or a longer holiday, there's a perfect dog-friendly base here for you.</p>
+</div>
+
+<div class="tip-box">
+  &#x1F4A1; <strong>Pro tip:</strong> Always confirm the maximum number of dogs allowed, any size restrictions, and whether there's a dog fee before booking. Our listings include these details where known.
+</div>
+
+{% assign accom_listings = site.listings | where: "category", "accommodation" %}
+{% if accom_listings.size > 0 %}
+<div class="listings-grid">
+  {% for listing in accom_listings %}
+  <div class="listing-card">
+    <h2><a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a></h2>
+    <span class="badge badge-accommodation" style="align-self:flex-start;">Accommodation</span>
+    <p class="excerpt">{{ listing.description | default: listing.content | strip_html | truncate: 130 }}</p>
+    {% if listing.address %}<div class="meta">&#x1F4CD; {{ listing.address }}</div>{% endif %}
+    <a href="{{ listing.url }}" class="btn btn-outline" style="margin-top:0.25rem;text-align:center;">View Details &rarr;</a>
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty-state"><p>Accommodation listings coming soon!</p></div>
+{% endif %}

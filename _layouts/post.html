@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<article class="post">
+  <style>
+    .post-header { margin-bottom: 2rem; border-bottom: 2px solid var(--sand); padding-bottom: 1.25rem; }
+    .post-title { font-size: 2rem; line-height: 1.25; color: var(--green-dark); margin-bottom: 0.5rem; }
+    .post-meta { font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem; color: var(--text-light); display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+    .post-meta time { font-weight: 600; }
+    .post-categories { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .post-body { max-width: 760px; }
+    .post-body h2 { font-size: 1.4rem; color: var(--green-dark); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--green-mid); margin: 1.5rem 0 0.5rem; }
+    .post-body p { margin-bottom: 1.1rem; }
+    .post-body ul, .post-body ol { margin: 0.75rem 0 1.1rem 1.5rem; }
+    .post-body li { margin-bottom: 0.4rem; }
+    .post-body blockquote { border-left: 4px solid var(--green-light); padding: 0.75rem 1.25rem; margin: 1.5rem 0; background: var(--sand); border-radius: 0 var(--radius) var(--radius) 0; font-style: italic; color: var(--text-light); }
+    .post-body a { color: var(--green-mid); text-decoration: underline; }
+    .post-body a:hover { color: var(--green-dark); }
+    .post-nav { margin-top: 3rem; padding-top: 1.5rem; border-top: 2px solid var(--sand); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; font-family: Arial, Helvetica, sans-serif; font-size: 0.9rem; }
+  </style>
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+      {% if page.categories.size > 0 %}
+      <div class="post-categories">
+        {% for cat in page.categories %}
+          <span class="badge badge-{{ cat | downcase | replace: ' ', '-' }}">{{ cat }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav">
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if page.next.url %}
+      <a href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+    {% endif %}
+  </nav>
+</article>

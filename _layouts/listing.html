@@ -1,0 +1,114 @@
+---
+layout: default
+---
+<style>
+  .listing-header { margin-bottom: 1.75rem; }
+  .listing-title { font-size: 2rem; line-height: 1.2; color: var(--green-dark); margin-bottom: 0.6rem; }
+  .listing-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-bottom: 1rem; font-family: Arial, Helvetica, sans-serif; font-size: 0.9rem; }
+  .listing-address { color: var(--text-light); }
+  .listing-address svg { vertical-align: middle; margin-right: 0.3rem; }
+
+  .listing-body { display: grid; grid-template-columns: 1fr 300px; gap: 2.5rem; align-items: start; }
+  @media (max-width: 720px) { .listing-body { grid-template-columns: 1fr; } }
+
+  .listing-description { font-size: 1.05rem; line-height: 1.75; }
+  .listing-description p { margin-bottom: 1rem; }
+  .listing-description h2 { font-size: 1.3rem; color: var(--green-dark); margin: 1.75rem 0 0.6rem; }
+  .listing-description h3 { font-size: 1.1rem; color: var(--green-mid); margin: 1.25rem 0 0.4rem; }
+  .listing-description ul { margin: 0.5rem 0 1rem 1.4rem; }
+  .listing-description li { margin-bottom: 0.3rem; }
+
+  .listing-sidebar { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow); }
+  .listing-sidebar h3 { font-size: 1rem; font-family: Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: 0.05em; color: var(--green-dark); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--sand); }
+
+  .facilities-list { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.25rem; }
+  .facility-tag { background: var(--sand); color: var(--text); border-radius: 99px; padding: 0.25rem 0.7rem; font-size: 0.8rem; font-family: Arial, Helvetica, sans-serif; font-weight: 600; }
+
+  .listing-links { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1rem; }
+  .listing-links .btn { text-align: center; }
+
+  .info-row { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.6rem; font-size: 0.9rem; font-family: Arial, Helvetica, sans-serif; }
+  .info-label { font-weight: 700; color: var(--green-dark); min-width: 80px; flex-shrink: 0; }
+
+  .rating-note { background: #f0f7e6; border: 1px solid #b8d98a; border-radius: var(--radius); padding: 0.75rem 1rem; font-size: 0.85rem; font-family: Arial, Helvetica, sans-serif; margin-bottom: 1rem; color: var(--green-dark); }
+</style>
+
+<article class="listing" itemscope itemtype="https://schema.org/LocalBusiness">
+  <meta itemprop="name" content="{{ page.name | default: page.title }}">
+  {% if page.address %}<meta itemprop="address" content="{{ page.address }}">{% endif %}
+  {% if page.website %}<meta itemprop="url" content="{{ page.website }}">{% endif %}
+
+  <header class="listing-header">
+    <h1 class="listing-title" itemprop="name">{{ page.name | default: page.title }}</h1>
+    <div class="listing-meta">
+      {% assign cat = page.category | default: page.categories[0] %}
+      {% if cat %}
+        <span class="badge badge-{{ cat }}">{{ cat | replace: '-', ' ' | capitalize }}</span>
+      {% endif %}
+      {% if page.address %}
+        <span class="listing-address">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span itemprop="address">{{ page.address }}</span>
+        </span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="listing-body">
+    <div class="listing-description">
+      {{ content }}
+    </div>
+
+    <aside class="listing-sidebar">
+      {% if page.facilities and page.facilities.size > 0 %}
+        <h3>Facilities</h3>
+        <div class="facilities-list">
+          {% for f in page.facilities %}
+            <span class="facility-tag">{{ f }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <h3>Details</h3>
+      {% if page.address %}
+        <div class="info-row"><span class="info-label">Address</span><span>{{ page.address }}</span></div>
+      {% endif %}
+      {% if page.os_grid %}
+        <div class="info-row"><span class="info-label">OS Grid</span><span>{{ page.os_grid }}</span></div>
+      {% endif %}
+      {% if page.distance %}
+        <div class="info-row"><span class="info-label">Distance</span><span>{{ page.distance }}</span></div>
+      {% endif %}
+      {% if page.open_hours %}
+        <div class="info-row"><span class="info-label">Hours</span><span>{{ page.open_hours }}</span></div>
+      {% endif %}
+      {% if page.phone %}
+        <div class="info-row"><span class="info-label">Phone</span><a href="tel:{{ page.phone }}">{{ page.phone }}</a></div>
+      {% endif %}
+
+      <div class="listing-links">
+        {% if page.website %}
+          <a href="{{ page.website }}" class="btn btn-primary" target="_blank" rel="noopener">Visit Website</a>
+        {% endif %}
+        {% if page.maps_link %}
+          <a href="{{ page.maps_link }}" class="btn btn-outline" target="_blank" rel="noopener">View on Google Maps</a>
+        {% elsif page.address %}
+          <a href="https://www.google.com/maps/search/{{ page.address | uri_escape }}" class="btn btn-outline" target="_blank" rel="noopener">View on Google Maps</a>
+        {% endif %}
+      </div>
+    </aside>
+  </div>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ page.name | default: page.title | escape }}",
+  {% if page.description %}"description": "{{ page.description | escape }}",{% endif %}
+  {% if page.address %}"address": { "@type": "PostalAddress", "streetAddress": "{{ page.address | escape }}" },{% endif %}
+  {% if page.website %}"url": "{{ page.website }}",{% endif %}
+  {% if page.phone %}"telephone": "{{ page.phone }}",{% endif %}
+  "areaServed": "Dumfries and Galloway, Scotland"
+}
+</script>

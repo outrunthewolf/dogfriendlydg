@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block access to Jekyll internals (not served by Jekyll, but belt-and-braces)
+Disallow: /_layouts/
+Disallow: /_includes/
+Disallow: /_sass/
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+
+# Sitemap
+Sitemap: https://dogfriendlydg.co.uk/sitemap.xml

@@ -1,0 +1,57 @@
+title: Dog Friendly DG
+description: The definitive guide to dog-friendly walks, pubs, beaches, cafes and accommodation in Dumfries and Galloway, Scotland.
+url: https://www.dogfriendlydg.co.uk
+baseurl: ""
+
+# Author
+author:
+  name: Dog Friendly DG
+  email: hello@dogfriendlydg.co.uk
+
+# Social
+twitter:
+  username: dogfriendlydg
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  listings:
+    output: true
+    permalink: /listings/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: listings
+    values:
+      layout: listing
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Timezone
+timezone: Europe/London
+
+# SEO
+lang: en-GB
