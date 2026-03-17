@@ -1,14 +1,15 @@
 ---
 layout: listing
-title: "Cream o' Galloway -- Farm Cafe and Adventure Park"
+title: "Cream o' Galloway - Dog-Friendly Ice Cream Farm Near Gatehouse of Fleet"
 name: "Cream o' Galloway"
 category: pub-cafe
+description: "Award-winning organic ice cream farm near Gatehouse of Fleet. Dogs welcome in all outdoor areas and on the nature trail. Best ice cream in Dumfries and Galloway."
 address: "Rainton Farm, Gatehouse of Fleet"
 town: "Gatehouse of Fleet"
 region: "Dumfries and Galloway"
 postcode: "DG7 2DR"
 website: "https://www.creamogalloway.co.uk"
-phone: ""
+phone: "01557 814040"
 facilities: [dog friendly outdoor area, farm trail, ice cream, cafe, adventure park, nature trail, ample parking]
 dogs_notes: "Dogs welcome in all outdoor areas and on the farm trail. Not permitted inside the cafe building. Water bowls at entrance."
 lat: 54.8843
