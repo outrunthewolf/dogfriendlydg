@@ -1,14 +1,15 @@
 ---
 layout: listing
-title: "Mersehead Beach -- RSPB Reserve, Near Dalbeattie"
+title: "Mersehead Beach - Dog-Friendly RSPB Reserve on the Solway Coast, Near Dalbeattie"
 name: "Mersehead Beach"
 category: beach
+description: "Wild Solway beach on the RSPB Mersehead reserve near Dalbeattie. Dogs welcome off-lead August to February, with breathtaking views to the Lake District fells."
 address: "Mersehead RSPB Reserve, Caulkerbush"
 town: "Dalbeattie"
 region: "Dumfries and Galloway"
 postcode: "DG2 8AH"
 website: "https://www.rspb.org.uk/reserves-and-events/reserves-a-z/mersehead/"
-phone: ""
+phone: "01387 780298"
 facilities: [free parking, RSPB reserve, sandy beach, birdwatching, open space, dog friendly]
 dogs_notes: "Dogs welcome on leads during bird nesting season (March-July). Off-lead welcome rest of year on beach. Stunning winter wildfowl."
 lat: 54.9012
