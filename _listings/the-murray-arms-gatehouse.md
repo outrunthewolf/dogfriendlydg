@@ -1,19 +1,20 @@
 ---
 layout: listing
-title: "The Murray Arms Hotel -- Gatehouse of Fleet"
+title: "The Murray Arms Hotel - Dog-Friendly Historic Inn in Gatehouse of Fleet"
 name: "The Murray Arms Hotel"
 category: pub-cafe
+description: "Historic coaching inn in Gatehouse of Fleet where Robert Burns once stayed. Dogs welcome in the bar and bedrooms. Outstanding local food and a warm Galloway welcome."
 address: "High Street, Gatehouse of Fleet"
 town: "Gatehouse of Fleet"
 region: "Dumfries and Galloway"
 postcode: "DG7 2HT"
-website: ""
-phone: ""
+website: "https://www.murrayarmshotel.com"
+phone: "01557 814207"
 facilities: [dog friendly bar, water bowls, dog treats, historic coaching inn, food served, accommodation]
-dogs_notes: "Dogs welcome in the bar. Historic inn -- Robert Burns famously stayed here. Treats and water available."
+dogs_notes: "Dogs welcome in the bar and in dog-friendly bedrooms. Historic inn -- Robert Burns famously stayed here. Treats and water available."
 lat: 54.8761
 lng: -4.1601
-excerpt: "A historic coaching inn on the High Street where Robert Burns once stayed -- now one of the most dog-welcoming pubs in Galloway."
+excerpt: "A historic coaching inn on the High Street where Robert Burns once stayed -- now one of the most dog-welcoming pubs and hotels in Galloway."
 ---
 
 The Murray Arms Hotel occupies a special place in Scottish literary history as well as in the hearts of dog owners across Dumfries and Galloway. It was here, in 1793, that Robert Burns is said to have written 'Scots Wha Hae' -- one of Scotland's most stirring national songs -- while staying at the inn on his tour of Galloway. Today the hotel continues to welcome travellers with the same warmth, and dogs are very much part of that welcome.
