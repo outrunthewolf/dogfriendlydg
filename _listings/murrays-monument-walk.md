@@ -1,19 +1,20 @@
 ---
 layout: listing
-title: "Murray's Monument Walk -- Near Newton Stewart"
+title: "Murray's Monument Walk - Short Dog Walk Near Newton Stewart, Dumfries and Galloway"
 name: "Murray's Monument Walk"
 category: walk
+description: "A short, rewarding 2-mile dog walk to a hilltop obelisk near Newton Stewart. Open hillside with panoramic Galloway views and burns for dogs to splash in."
 address: "Talnotry, New Galloway Road"
 town: "Newton Stewart"
 region: "Dumfries and Galloway"
 postcode: "DG8 7AL"
-website: ""
+website: "https://www.forestryandland.gov.scot/visit/forest-parks/galloway-forest-park"
 phone: ""
 facilities: [car park, open hillside, burns, panoramic views]
 dogs_notes: "Open hillside -- dogs can run freely (away from sheep). Streams for drinking and paddling."
 lat: 55.0231
 lng: -4.3821
-excerpt: "A short, exhilarating 2-mile walk up to a striking obelisk with sweeping views over Galloway."
+excerpt: "A short, exhilarating 2-mile walk up to a striking obelisk with sweeping views over Galloway -- great for dogs who love open hillside."
 ---
 
 Murray's Monument is one of the most rewarding short walks in Galloway -- a compact 2-mile round trip that punches well above its weight for views and atmosphere. The tall granite obelisk sits high on the hillside above the Talnotry car park on the A712 New Galloway road, and the climb to reach it is steep but straightforward on a well-worn path.
