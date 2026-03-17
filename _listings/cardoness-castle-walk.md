@@ -1,19 +1,20 @@
 ---
 layout: listing
-title: "Cardoness Castle -- Gatehouse of Fleet"
+title: "Cardoness Castle - Dog-Friendly Walk in Gatehouse of Fleet, Dumfries and Galloway"
 name: "Cardoness Castle"
 category: walk
+description: "Explore Cardoness Castle, a dramatic 15th-century tower house ruin near Gatehouse of Fleet. Dogs welcome on leads in the grounds, with stunning views over Fleet Bay."
 address: "Cardoness Castle, A75"
 town: "Gatehouse of Fleet"
 region: "Dumfries and Galloway"
 postcode: "DG7 2EH"
 website: "https://www.historicenvironment.scot/visit-a-place/places/cardoness-castle/"
-phone: ""
+phone: "01557 814427"
 facilities: [car park, grassy grounds, historic site, views over Fleet Bay]
 dogs_notes: "Dogs on leads around the castle grounds. Historic Environment Scotland site -- well-maintained paths."
 lat: 54.8697
 lng: -4.1654
-excerpt: "Explore a dramatic 15th-century tower house ruin with stunning views over Fleet Bay -- great for a dog-friendly stroll."
+excerpt: "Explore a dramatic 15th-century tower house ruin with stunning views over Fleet Bay -- great for a dog-friendly stroll near Gatehouse of Fleet."
 ---
 
 Cardoness Castle is one of the finest tower house ruins in southwest Scotland, and it makes for a wonderfully atmospheric dog-friendly stop on the Dumfries and Galloway coastline. Perched on a rocky outcrop just off the A75 near Gatehouse of Fleet, this imposing 15th-century stronghold was the seat of the McCulloch family -- a turbulent clan whose colourful history of feuds and lawlessness is as dramatic as the castle itself.
