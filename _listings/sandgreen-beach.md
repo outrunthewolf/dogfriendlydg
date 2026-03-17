@@ -1,13 +1,14 @@
 ---
 layout: listing
-title: "Sandgreen Beach -- Near Gatehouse of Fleet"
+title: "Sandgreen Beach - Dog-Friendly Beach Near Gatehouse of Fleet, No Seasonal Bans"
 name: "Sandgreen Beach"
 category: beach
+description: "Quiet sandy beach on Fleet Bay near Gatehouse of Fleet with no seasonal dog restrictions. Dogs welcome year-round on this beautiful Solway coast beach."
 address: "Sandgreen, Gatehouse of Fleet"
 town: "Gatehouse of Fleet"
 region: "Dumfries and Galloway"
 postcode: "DG7 2DU"
-website: ""
+website: "https://www.dumgal.gov.uk/article/15907/Beaches"
 phone: ""
 facilities: [free parking, sandy beach, shallow water, dog friendly year round, open space]
 dogs_notes: "Dogs allowed year-round with no seasonal restrictions. Excellent for a run and a paddle."
