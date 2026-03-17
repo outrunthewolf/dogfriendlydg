@@ -1,13 +1,14 @@
 ---
 layout: listing
-title: "Glen Trool Walk -- Galloway Forest Park"
+title: "Glen Trool Walk - Best Dog Walk in Galloway Forest Park, Near Newton Stewart"
 name: "Glen Trool Walk"
 category: walk
+description: "8-mile circular dog walk through Galloway Forest Park to Bruce's Stone above Loch Trool. One of the finest dog-friendly walks in southern Scotland, near Newton Stewart."
 address: "Glentrool Village, Bargrennan"
 town: "Newton Stewart"
 region: "Dumfries and Galloway"
 postcode: "DG8 6SZ"
-website: ""
+website: "https://www.forestryandland.gov.scot/visit/forest-parks/galloway-forest-park/glen-trool"
 phone: ""
 facilities: [car park, streams, open hillside, woodland, waymarked trail]
 dogs_notes: "Keep on lead near sheep (especially spring/summer). Burns perfect for a swim."
