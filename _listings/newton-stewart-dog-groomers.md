@@ -1,14 +1,13 @@
 ---
 layout: listing
-title: "Dog Grooming Newton Stewart -- Local Professional Groomers"
+title: "Dog Grooming in Newton Stewart - Professional Dog Groomers, Dumfries and Galloway"
 name: "Dog Grooming Newton Stewart"
 category: vet-groomer
+description: "Professional dog grooming in Newton Stewart serving western Dumfries and Galloway. All breeds welcome, by appointment. Contact via Facebook to book."
 address: "Newton Stewart"
 town: "Newton Stewart"
 region: "Dumfries and Galloway"
-postcode: "DG8"
-website: ""
-phone: ""
+postcode: "DG8 6AA"
 facilities: [professional grooming, all breeds, by appointment, local service]
 dogs_notes: "Professional grooming for all breeds. By appointment only. Contact via Facebook for bookings."
 lat: 54.9534
