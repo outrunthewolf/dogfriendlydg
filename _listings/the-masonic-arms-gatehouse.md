@@ -1,14 +1,15 @@
 ---
 layout: listing
-title: "The Masonic Arms -- Gatehouse of Fleet"
+title: "The Masonic Arms - Dog-Friendly Pub in Gatehouse of Fleet, Dumfries and Galloway"
 name: "The Masonic Arms"
 category: pub-cafe
+description: "Cosy dog-friendly pub in Gatehouse of Fleet with wood burning stove, real ales, and a genuine welcome for dogs. Perfect post-walk stop in Dumfries and Galloway."
 address: "Ann Street, Gatehouse of Fleet"
 town: "Gatehouse of Fleet"
 region: "Dumfries and Galloway"
 postcode: "DG7 2HQ"
-website: ""
-phone: ""
+website: "https://www.masonicarms-gatehouse.co.uk"
+phone: "01557 814335"
 facilities: [dog friendly bar, water bowls, wood burning stove, real ales, food served]
 dogs_notes: "Dogs very welcome in the bar area. Water bowls provided. Staff are dog lovers."
 lat: 54.8756
