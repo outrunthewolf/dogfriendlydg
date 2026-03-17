@@ -1,14 +1,15 @@
 ---
 layout: listing
-title: "Galloway Sailing Centre -- Dog-Friendly Lodges on Loch Ken"
+title: "Galloway Sailing Centre - Dog-Friendly Lodges on Loch Ken, Castle Douglas"
 name: "Galloway Sailing Centre"
 category: accommodation
+description: "Dog-friendly self-catering lodges on Loch Ken near Castle Douglas. Up to 2 dogs welcome per lodge at no extra charge, with direct loch access for swimming."
 address: "Parton, Castle Douglas"
 town: "Castle Douglas"
 region: "Dumfries and Galloway"
 postcode: "DG7 3NQ"
 website: "https://www.lochken.co.uk"
-phone: ""
+phone: "01644 470207"
 facilities: [dog friendly lodges, loch access, watersports, self catering, ample outside space, direct water access]
 dogs_notes: "Up to 2 dogs welcome per lodge at no extra charge. Direct loch access for swimming. Dogs must not be left unattended in lodges."
 lat: 55.0123
