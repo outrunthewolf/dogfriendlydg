@@ -1,151 +1,204 @@
 ---
 layout: default
-title: "Dog-Friendly Venues in Dumfries and Galloway"
-description: "Browse all dog-friendly venues, walks, beaches, pubs, cafes and accommodation across Dumfries and Galloway, Scotland."
+title: "Dog-Friendly Listings — Dumfries and Galloway"
+description: "Browse all dog-friendly walks, beaches, pubs, cafes, accommodation and more across Dumfries and Galloway, Scotland."
 permalink: /listings/
 ---
-
 <style>
-  .listings-hero {
-    background: var(--green-dark);
-    color: var(--white);
-    padding: 2.5rem 1.25rem;
-    margin: -2rem -1.25rem 2rem;
-    text-align: center;
+  /* ── PAGE HEADER ── */
+  .listings-page-header {
+    margin-bottom: 2rem;
   }
-  .listings-hero h1 {
-    font-size: 2.2rem;
+  .listings-page-header h1 {
+    font-size: 2rem;
+    color: var(--green-dark);
+    line-height: 1.2;
     margin-bottom: 0.5rem;
-    color: var(--white);
   }
-  .listings-hero p {
-    color: rgba(255,255,255,0.85);
-    font-size: 1.1rem;
-    max-width: 600px;
-    margin: 0 auto;
+  .listings-page-header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
   }
 
-  .category-filters {
+  /* ── FILTER BAR ── */
+  .filter-bar {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-bottom: 2.5rem;
-    justify-content: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 2px solid var(--sand);
   }
   .filter-btn {
-    display: inline-block;
-    padding: 0.4rem 1rem;
-    border-radius: 99px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 600;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.35rem 0.9rem;
+    border-radius: 99px;
+    border: 2px solid var(--border);
+    background: var(--white);
+    color: var(--text-light);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
     text-decoration: none;
-    background: var(--sand);
-    color: var(--text);
-    border: 2px solid transparent;
-    transition: all 0.15s;
+    display: inline-block;
   }
-  .filter-btn:hover {
-    background: var(--green-mid);
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--green-dark);
+    border-color: var(--green-dark);
     color: var(--white);
-    border-color: var(--green-mid);
+    text-decoration: none;
   }
 
-  .listings-grid {
+  /* ── LISTING COUNT ── */
+  .listing-count {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 1.25rem;
+  }
+  .listing-count strong {
+    color: var(--green-dark);
+  }
+
+  /* ── LISTING CARDS GRID (reuse home.html pattern) ── */
+  .listing-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+    gap: 1.25rem;
+    margin-bottom: 3rem;
   }
   .listing-card {
     background: var(--white);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
+    padding: 1.25rem 1.4rem;
     box-shadow: var(--shadow);
-    overflow: hidden;
     transition: transform 0.15s, box-shadow 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
   .listing-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.13);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 16px rgba(0,0,0,0.12);
   }
-  .listing-card .card-body {
-    padding: 1.25rem;
-  }
-  .listing-card h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.25rem;
+  .listing-card-title {
+    font-size: 1.05rem;
+    font-weight: bold;
     color: var(--green-dark);
   }
-  .listing-card h3 a {
-    color: var(--green-dark);
+  .listing-card-title a {
+    color: inherit;
     text-decoration: none;
   }
-  .listing-card h3 a:hover {
+  .listing-card-title a:hover {
     color: var(--green-mid);
+    text-decoration: none;
+  }
+  .listing-card-excerpt {
+    font-size: 0.88rem;
+    color: var(--text-light);
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+  }
+  .listing-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .listing-card-location {
+    font-size: 0.78rem;
+    color: var(--text-light);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .listing-card-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--green-mid);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .listing-card-link:hover {
+    color: var(--green-dark);
     text-decoration: underline;
   }
-  .listing-card .location {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.85rem;
-    color: var(--text-light);
-    margin-bottom: 0.5rem;
-  }
-  .listing-card .excerpt {
-    font-size: 0.95rem;
-    color: var(--text-light);
-    margin-top: 0.5rem;
-    line-height: 1.5;
-  }
 
-  .empty-state {
+  /* ── EMPTY STATE ── */
+  .listings-empty {
     text-align: center;
-    padding: 3rem 125rem;
+    padding: 3rem 1rem;
     color: var(--text-light);
+    font-family: Arial, Helvetica, sans-serif;
   }
+  .listings-empty p { margin-bottom: 1rem; }
 
+  /* ── RESPONSIVE ── */
   @media (max-width: 640px) {
-    .listings-hero h1 { font-size: 1.6rem; }
-    .listings-grid { grid-template-columns: 1fr; }
+    .listings-page-header h1 { font-size: 1.6rem; }
+    .listing-cards { grid-template-columns: 1fr; }
   }
 </style>
 
-<div class="listings-hero">
-  <h1>Dog-Friendly Venues in D&amp;G</h1>
-  <p>Pubs, cafés, walks, beaches, accommodation and more &#12948; &#100007; &#8694; Dumfries and Galloway, Scotland</p>
+<div class="listings-page-header">
+  <h1>Dog-Friendly Places in Dumfries &amp; Galloway</h1>
+  <p>Discover walks, beaches, pubs, caf&eacute;s, accommodation and more &mdash; all welcoming you and your dog across Scotland&rsquo;s most beautiful region.</p>
 </div>
 
-<div class="category-filters">
-  <a href="/walks/" class="filter-btn">&#12948; Walks</a>
-  <a href="/pubs-cafes/" class="filter-btn">&#12770; Pubs &amp; Cafés</a>
-  <a href="/beaches/" class="filter-btn">&#12796; Beaches</a>
-  <a href="/accommodation/" class="filter-btn">&#12795; Accommodation</a>
-  <a href="/vets-groomers/" class="filter-btn">&#12985; Vets &amp; Groomers</a>
-</div>
-
-{% assign sorted_listings = site.listings | sort: "title" %}
-{% if sorted_listings.size > 0 %}
-<div class="listings-grid">
-  {% for listing in sorted_listings %}
-  <article class="listing-card">
-    <div class="card-body">
-      {% assign cat = listing.category | default: "venue" %}
-      {% case cat %}
-        {% when "walk" %}{% assign cat_label = "Walk" %}{% assign cat_class = "badge-walk" %}
-        {% when "beach" %}{% assign cat_label = "Beach" %}{% assign cat_class = "badge-beach" %}
-        {% when "pub" or "cafe" or "pub-cafe" %}{% assign cat_label = "Pub / Café" %}{% assign cat_class = "badge-pub-cafe" %}
-        {% when "accommodation" or "campsite" %}{% assign cat_label = "Stay" %}{% assign cat_class = "badge-accommodation" %}
-        {% when "vet-groomer" or "vet" or "groomer" %}{% assign cat_label = "Vet / Groomer" %}{% assign cat_class = "badge-vet-groomer" %}
-        {% else %}{% assign cat_label = cat | capitalize %}{% assign cat_class = "badge-walk" %}
-      {% endcase %}
-      <span class="badge {{ cat_class }}" style="margin-bottom: 0.75rem; display:inline-block">{{ cat_label }}</span>
-      <h3><a href="{{ listing.url }}">{{ listing.title }}</a></h3>
-      {% if listing.town %}<p class="location">&#128205; {{ listing.town }}{% if listing.region %}, {{ listing.region }}{% endif %}</p>{% endif %}
-      {% if listing.excerpt %}<p class="excerpt">{{ listing.excerpt }}</p>{% endif %}
-    </div>
-  </article>
+<!-- FILTER BAR -->
+{% assign all_cats = site.listings | map: 'category' | compact | uniq | sort %}
+<nav class="filter-bar" aria-label="Filter listings by category">
+  <a class="filter-btn active" href="/listings/">All</a>
+  {% for cat in all_cats %}
+    <a class="filter-btn" href="/listings/?category={{ cat | uri_escape }}">{{ cat | replace: '-', ' ' | capitalize }}</a>
   {% endfor %}
-</div>
+</nav>
+
+<!-- LISTING COUNT -->
+{% assign total = site.listings | size %}
+<p class="listing-count"><strong>{{ total }}</strong> dog-friendly place{% if total != 1 %}s{% endif %} listed across Dumfries &amp; Galloway</p>
+
+<!-- LISTINGS GRID -->
+{% if site.listings and site.listings.size > 0 %}
+  {% assign sorted_listings = site.listings | sort: 'title' %}
+  <div class="listing-cards">
+    {% for listing in sorted_listings %}
+    <div class="listing-card">
+      <div class="listing-card-title">
+        <a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a>
+      </div>
+      {% assign cat = listing.category | default: listing.categories[0] %}
+      {% if cat %}<span class="badge badge-{{ cat }}">{{ cat | replace: '-', ' ' | capitalize }}</span>{% endif %}
+      {% if listing.excerpt %}
+        <p class="listing-card-excerpt">{{ listing.excerpt | strip_html | truncate: 120 }}</p>
+      {% elsif listing.description %}
+        <p class="listing-card-excerpt">{{ listing.description | truncate: 120 }}</p>
+      {% else %}
+        <p class="listing-card-excerpt">{{ listing.content | strip_html | truncate: 120 }}</p>
+      {% endif %}
+      <div class="listing-card-footer">
+        {% if listing.location %}
+          <span class="listing-card-location">&#x1F4CD; {{ listing.location }}</span>
+        {% elsif listing.address %}
+          <span class="listing-card-location">&#x1F4CD; {{ listing.address | truncate: 40 }}</span>
+        {% endif %}
+        <a class="listing-card-link" href="{{ listing.url }}">View listing &rarr;</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 {% else %}
-<div class="empty-state">
-  <p>&#12948; Listings coming soon &#8212; check back shortly!</p>
-</div>
+  <div class="listings-empty">
+    <p>No listings found yet &mdash; check back soon.</p>
+    <a class="btn btn-primary" href="/">Back to home</a>
+  </div>
 {% endif %}
