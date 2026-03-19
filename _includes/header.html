@@ -1,29 +1,77 @@
 <header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="/" aria-label="Dog Friendly DG &ndash; home">
-      <!-- SVG paw print logo -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="36" height="36" aria-hidden="true" style="flex-shrink:0;margin-right:0.4rem">
-        <circle cx="20" cy="20" r="20" fill="#4a7c2f"/>
-        <g transform="translate(8, 8)">
-          <!-- Main pad -->
-          <ellipse cx="12" cy="18" rx="6" ry="7" fill="#ffffff" opacity="0.9"/>
-          <!-- Toe pads -->
-          <ellipse cx="3" cy="11" rx="3.5" ry="4" fill="#ffffff" opacity="0.9"/>
-          <ellipse cx="11" cy="6" rx="3.5" ry="4" fill="#ffffff" opacity="0.9"/>
-          <ellipse cx="19" cy="7" rx="3.5" ry="4" fill="#ffffff" opacity="0.9"/>
-          <ellipse cx="24" cy="12" rx="3.5" ry="4" fill="#ffffff" opacity="0.9"/>
-        </g>
-      </svg>
-      Dog Friendly DG
+    <a class="site-title" href="/" aria-label="Dog Friendly DG home">
+      <img src="/assets/images/logo.svg"
+          alt="Dog Friendly DG - Dumfries and Galloway"
+          width="180" height="60"
+          loading="eager">
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="/walks/">Walks</a>
       <a href="/pubs-cafes/">Pubs &amp; Cafes</a>
       <a href="/beaches/">Beaches</a>
       <a href="/accommodation/">Accommodation</a>
       <a href="/vets-groomers/">Vets &amp; Groomers</a>
       <a href="/events/">Events</a>
-      <a href="/listings/">All Listings</a>
+      <a href="/listings/">All Places</a>
     </nav>
   </div>
 </header>
+
+<style>
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: auto;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--white);
+    transition: 0.25s;
+  }
+
+  @media (max-width: 640px) {
+    .nav-toggle {
+      display: flex;
+    }
+    .site-nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      padding: 0.5rem 0;
+      order: 3;
+    }
+    .site-nav.open {
+      display: flex;
+    }
+    .site-nav a {
+      padding: 0.6rem 0.75rem;
+      border-radius: 4px;
+    }
+  }
+</style>
+
+<script>
+  (function() {
+    var toggle = document.querySelector('.nav-toggle');
+    var nav = document.querySelector('site-nav');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function() {
+        var open = nav.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+    }
+  })();
+</script>
