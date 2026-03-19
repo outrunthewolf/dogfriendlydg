@@ -1,0 +1,151 @@
+---
+layout: default
+title: "Dog-Friendly Venues in Dumfries and Galloway"
+description: "Browse all dog-friendly venues, walks, beaches, pubs, cafes and accommodation across Dumfries and Galloway, Scotland."
+permalink: /listings/
+---
+
+<style>
+  .listings-hero {
+    background: var(--green-dark);
+    color: var(--white);
+    padding: 2.5rem 1.25rem;
+    margin: -2rem -1.25rem 2rem;
+    text-align: center;
+  }
+  .listings-hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+  }
+  .listings-hero p {
+    color: rgba(255,255,255,0.85);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+  }
+  .filter-btn {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    border-radius: 99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: var(--sand);
+    color: var(--text);
+    border: 2px solid transparent;
+    transition: all 0.15s;
+  }
+  .filter-btn:hover {
+    background: var(--green-mid);
+    color: var(--white);
+    border-color: var(--green-mid);
+  }
+
+  .listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .listing-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .listing-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.13);
+  }
+  .listing-card .card-body {
+    padding: 1.25rem;
+  }
+  .listing-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: var(--green-dark);
+  }
+  .listing-card h3 a {
+    color: var(--green-dark);
+    text-decoration: none;
+  }
+  .listing-card h3 a:hover {
+    color: var(--green-mid);
+    text-decoration: underline;
+  }
+  .listing-card .location {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+  }
+  .listing-card .excerpt {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-top: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem 125rem;
+    color: var(--text-light);
+  }
+
+  @media (max-width: 640px) {
+    .listings-hero h1 { font-size: 1.6rem; }
+    .listings-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="listings-hero">
+  <h1>Dog-Friendly Venues in D&amp;G</h1>
+  <p>Pubs, cafés, walks, beaches, accommodation and more &#12948; &#100007; &#8694; Dumfries and Galloway, Scotland</p>
+</div>
+
+<div class="category-filters">
+  <a href="/walks/" class="filter-btn">&#12948; Walks</a>
+  <a href="/pubs-cafes/" class="filter-btn">&#12770; Pubs &amp; Cafés</a>
+  <a href="/beaches/" class="filter-btn">&#12796; Beaches</a>
+  <a href="/accommodation/" class="filter-btn">&#12795; Accommodation</a>
+  <a href="/vets-groomers/" class="filter-btn">&#12985; Vets &amp; Groomers</a>
+</div>
+
+{% assign sorted_listings = site.listings | sort: "title" %}
+{% if sorted_listings.size > 0 %}
+<div class="listings-grid">
+  {% for listing in sorted_listings %}
+  <article class="listing-card">
+    <div class="card-body">
+      {% assign cat = listing.category | default: "venue" %}
+      {% case cat %}
+        {% when "walk" %}{% assign cat_label = "Walk" %}{% assign cat_class = "badge-walk" %}
+        {% when "beach" %}{% assign cat_label = "Beach" %}{% assign cat_class = "badge-beach" %}
+        {% when "pub" or "cafe" or "pub-cafe" %}{% assign cat_label = "Pub / Café" %}{% assign cat_class = "badge-pub-cafe" %}
+        {% when "accommodation" or "campsite" %}{% assign cat_label = "Stay" %}{% assign cat_class = "badge-accommodation" %}
+        {% when "vet-groomer" or "vet" or "groomer" %}{% assign cat_label = "Vet / Groomer" %}{% assign cat_class = "badge-vet-groomer" %}
+        {% else %}{% assign cat_label = cat | capitalize %}{% assign cat_class = "badge-walk" %}
+      {% endcase %}
+      <span class="badge {{ cat_class }}" style="margin-bottom: 0.75rem; display:inline-block">{{ cat_label }}</span>
+      <h3><a href="{{ listing.url }}">{{ listing.title }}</a></h3>
+      {% if listing.town %}<p class="location">&#128205; {{ listing.town }}{% if listing.region %}, {{ listing.region }}{% endif %}</p>{% endif %}
+      {% if listing.excerpt %}<p class="excerpt">{{ listing.excerpt }}</p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+  <p>&#12948; Listings coming soon &#8212; check back shortly!</p>
+</div>
+{% endif %}
