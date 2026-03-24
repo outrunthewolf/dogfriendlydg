@@ -30,3 +30,11 @@ Dogs of all sizes are welcome at absolutely no extra charge, with a maximum of t
 **Moniaive Village**
 
 Moniaive is one of Galloway's most appealing small villages, with a thriving arts community, the excellent Green Tea House cafe, and an annual folk festival in summer. The village is dog-friendly and easily explored on foot, with riverside paths along the Cairn Water providing gentle evening walks from the cottages.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Auchingarrich+Holiday+Cottages+Moniaive+Dumfries&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Dumfries-and-Galloway/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
