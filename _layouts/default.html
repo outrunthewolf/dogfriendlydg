@@ -35,7 +35,7 @@
     a { color: var(--green-mid); text-decoration: none; }
     a:hover { color: var(--green-dark); text-decoration: underline; }
 
-    /* ── HEADER ── */
+    /* -- HEADER -- */
     .site-header {
       background: var(--green-dark);
       color: var(--white);
@@ -93,15 +93,24 @@
       color: var(--white);
       text-decoration: none;
     }
+    .site-nav a.nav-cta {
+      background: var(--green-mid);
+      color: var(--white);
+      border: 1px solid var(--green-light);
+    }
+    .site-nav a.nav-cta:hover {
+      background: var(--green-light);
+      color: var(--green-dark);
+    }
 
-    /* ── MAIN ── */
+    /* -- MAIN -- */
     .page-wrap {
       max-width: 1100px;
       margin: 0 auto;
       padding: 2rem 1.25rem 3rem;
     }
 
-    /* ── FOOTER ── */
+    /* -- FOOTER -- */
     .site-footer {
       background: var(--green-dark);
       color: rgba(255,255,255,0.75);
@@ -119,7 +128,7 @@
     .site-footer a { color: rgba(255,255,255,0.75); }
     .site-footer a:hover { color: var(--white); }
 
-    /* ── UTILITY ── */
+    /* -- UTILITY -- */
     .badge {
       display: inline-block;
       padding: 0.2rem 0.65rem;
@@ -154,7 +163,7 @@
     .btn-outline { background: transparent; color: var(--green-mid); border: 2px solid var(--green-mid); }
     .btn-outline:hover { background: var(--green-mid); color: var(--white); }
 
-    /* ── RESPONSIVE ── */
+    /* -- RESPONSIVE -- */
     @media (max-width: 640px) {
       .header-inner { padding: 0 0.75rem; }
       .site-nav a { padding: 0.35rem 0.5rem; font-size: 0.78rem; }
@@ -176,6 +185,8 @@
         <a href="/accommodation/">Accommodation</a>
         <a href="/vets-groomers/">Vets &amp; Groomers</a>
         <a href="/events/">Events</a>
+        <a href="/newsletter/">Newsletter</a>
+        <a href="/premium-listings/" class="nav-cta">List Your Business</a>
       </nav>
     </div>
   </header>
@@ -189,7 +200,9 @@
     <p>&copy; {{ 'now' | date: "%Y" }} Dog Friendly DG &mdash;
       <a href="/walks/">Walks</a> &middot;
       <a href="/beaches/">Beaches</a> &middot;
-      <a href="/accommodation/">Accommodation</a>
+      <a href="/accommodation/">Accommodation</a> &middot;
+      <a href="/newsletter/">Newsletter</a> &middot;
+      <a href="/premium-listings/">List Your Business</a>
     </p>
   </footer>
 
