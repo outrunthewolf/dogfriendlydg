@@ -30,3 +30,11 @@ Dogs are welcome in all rooms at a charge of £10 per dog per stay -- not per ni
 **Breakfast and Hospitality**
 
 Home-cooked breakfasts using local produce are a highlight of a stay at Castle Cary House. The hosts have an encyclopaedic knowledge of local walking routes and are delighted to share recommendations for dog-friendly days out in the area.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Castle+Cary+House+Creetown&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Wigtown/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
