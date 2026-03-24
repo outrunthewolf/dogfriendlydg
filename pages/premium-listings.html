@@ -1,0 +1,350 @@
+---
+layout: default
+title: "Premium Listings - Get Your Dog-Friendly Business Featured"
+description: "Promote your dog-friendly business to thousands of visitors exploring Dumfries and Galloway. Choose from Bronze, Silver, or Gold listing packages."
+permalink: /premium-listings/
+---
+
+<style>
+  .premium-hero {
+    text-align: center;
+    padding: 3rem 1rem 2.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .premium-hero h1 {
+    font-size: 2rem;
+    color: var(--green-dark);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+  .premium-hero p.lead {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+  .premium-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 2rem auto 0;
+    max-width: 600px;
+  }
+  .stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+  }
+  .stat-item .stat-number {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--green-mid);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .stat-item .stat-label {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  /* Pricing grid */
+  .pricing-section {
+    max-width: 1000px;
+    margin: 3rem auto;
+  }
+  .pricing-section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--green-dark);
+    margin-bottom: 2rem;
+  }
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .pricing-card {
+    background: var(--white);
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2rem 1.75rem;
+    position: relative;
+    box-shadow: var(--shadow);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .pricing-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.13);
+  }
+  .pricing-card.featured {
+    border-color: var(--green-mid);
+    box-shadow: 0 4px 16px rgba(74,124,47,0.18);
+  }
+  .pricing-card .tier-badge {
+    display: inline-block;
+    padding: 0.25rem 0.8rem;
+    border-radius: 99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+  }
+  .tier-bronze { background: #f0e6d3; color: #7a4f1a; }
+  .tier-silver { background: #e8e8ec; color: #3a3a5c; }
+  .tier-gold   { background: #fef3cc; color: #7a5a00; }
+  .popular-tag {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--green-mid);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.2rem 0.8rem;
+    border-radius: 99px;
+    white-space: nowrap;
+  }
+  .pricing-card h3 {
+    font-size: 1.3rem;
+    color: var(--green-dark);
+    margin-bottom: 0.25rem;
+  }
+  .price {
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--green-mid);
+    line-height: 1;
+    margin-bottom: 0.2rem;
+  }
+  .price-period {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.25rem;
+  }
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.75rem;
+  }
+  .pricing-card ul li {
+    padding: 0.35rem 0;
+    padding-left: 1.6rem;
+    position: relative;
+    font-size: 0.92rem;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+  }
+  .pricing-card ul li:last-child {
+    border-bottom: none;
+  }
+  .pricing-card ul li::before {
+    content: "&#x2713;";
+    position: absolute;
+    left: 0;
+    color: var(--green-mid);
+    font-weight: bold;
+  }
+  .pricing-card .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+  }
+  /* Why section */
+  .why-section {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding: 2.5rem;
+    background: var(--sand);
+    border-radius: var(--radius);
+  }
+  .why-section h2 {
+    font-size: 1.3rem;
+    color: var(--green-dark);
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  .why-item {
+    text-align: center;
+  }
+  .why-item .why-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .why-item h3 {
+    font-size: 0.95rem;
+    color: var(--green-dark);
+    margin-bottom: 0.25rem;
+  }
+  .why-item p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.5;
+  }
+  /* CTA strip */
+  .cta-strip {
+    text-align: center;
+    padding: 2.5rem 1rem 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .cta-strip h2 {
+    font-size: 1.3rem;
+    color: var(--green-dark);
+    margin-bottom: 0.75rem;
+  }
+  .cta-strip p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+  @media (max-width: 640px) {
+    .pricing-grid { grid-template-columns: 1fr; }
+    .premium-hero h1 { font-size: 1.5rem; }
+    .price { font-size: 1.8rem; }
+  }
+</style>
+
+<div class="premium-hero">
+  <h1>Get Your Dog-Friendly Business in Front of Galloway Visitors</h1>
+  <p class="lead">DogFriendlyDG is the go-to guide for dog owners visiting Dumfries &amp; Galloway. A premium listing puts your business where people are already searching &mdash; and keeps it there.</p>
+  <div class="premium-stats">
+    <div class="stat-item">
+      <span class="stat-number">5,000+</span>
+      <span class="stat-label">Monthly visitors</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">80%</span>
+      <span class="stat-label">Plan trips in advance</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Dog owner audience</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">D&amp;G</span>
+      <span class="stat-label">Hyper-local focus</span>
+    </div>
+  </div>
+</div>
+
+<div class="pricing-section">
+  <h2>Choose Your Listing Package</h2>
+  <div class="pricing-grid">
+
+    <!-- Bronze -->
+    <div class="pricing-card">
+      <span class="tier-badge tier-bronze">Bronze</span>
+      <h3>Standard Listing</h3>
+      <div class="price">&pound;50</div>
+      <div class="price-period">per month &mdash; cancel anytime</div>
+      <ul>
+        <li>Listed in your category (walks, pubs, accommodation, etc.)</li>
+        <li>Business name, description, and contact details</li>
+        <li>Dog-friendly features highlighted (dogs welcome, water bowls, etc.)</li>
+        <li>Link to your website or booking page</li>
+        <li>Appears in &ldquo;All Places&rdquo; directory</li>
+      </ul>
+      <a href="mailto:hello@dogfriendlydg.co.uk?subject=Bronze%20Listing%20Enquiry" class="btn btn-outline">Get Started</a>
+    </div>
+
+    <!-- Silver -->
+    <div class="pricing-card featured">
+      <span class="popular-tag">Most Popular</span>
+      <span class="tier-badge tier-silver">Silver</span>
+      <h3>Featured Listing</h3>
+      <div class="price">&pound;100</div>
+      <div class="price-period">per month &mdash; cancel anytime</div>
+      <ul>
+        <li>Everything in Bronze</li>
+        <li>Featured placement on your category page</li>
+        <li>Enhanced profile with photo gallery (up to 6 images)</li>
+        <li>Highlighted &ldquo;Featured&rdquo; badge on listing</li>
+        <li>Listed on all relevant area pages (e.g. Castle Douglas, Gatehouse)</li>
+        <li>Priority placement in search results</li>
+        <li>Monthly performance summary</li>
+      </ul>
+      <a href="mailto:hello@dogfriendlydg.co.uk?subject=Silver%20Listing%20Enquiry" class="btn btn-primary">Get Started</a>
+    </div>
+
+    <!-- Gold -->
+    <div class="pricing-card">
+      <span class="tier-badge tier-gold">Gold</span>
+      <h3>Premium Partner</h3>
+      <div class="price">&pound;200</div>
+      <div class="price-period">per month &mdash; cancel anytime</div>
+      <ul>
+        <li>Everything in Silver</li>
+        <li>Top placement on all relevant category and area pages</li>
+        <li>Dedicated guide post written and published (1,000+ words, SEO optimised)</li>
+        <li>Social media promotion (Instagram + Facebook post)</li>
+        <li>Featured in the weekly newsletter (1 mention per month)</li>
+        <li>Homepage feature slot (rotating)</li>
+        <li>Quarterly review call with site editor</li>
+      </ul>
+      <a href="mailto:hello@dogfriendlydg.co.uk?subject=Gold%20Listing%20Enquiry" class="btn btn-outline">Get Started</a>
+    </div>
+
+  </div>
+</div>
+
+<div class="why-section">
+  <h2>Why advertise on DogFriendlyDG?</h2>
+  <div class="why-grid">
+    <div class="why-item">
+      <span class="why-icon">&#x1F3AF;</span>
+      <h3>Targeted audience</h3>
+      <p>Every visitor is a dog owner actively planning a trip to Dumfries &amp; Galloway. No wasted impressions.</p>
+    </div>
+    <div class="why-item">
+      <span class="why-icon">&#x1F50D;</span>
+      <h3>SEO-driven traffic</h3>
+      <p>Our content ranks for &ldquo;dog-friendly [place]&rdquo; searches. Your listing benefits from that visibility.</p>
+    </div>
+    <div class="why-item">
+      <span class="why-icon">&#x1F4CD;</span>
+      <h3>Hyper-local</h3>
+      <p>Dedicated to D&amp;G only &mdash; visitors trust us as the authoritative local guide, not a generic directory.</p>
+    </div>
+    <div class="why-item">
+      <span class="why-icon">&#x1F4C8;</span>
+      <h3>Grows with us</h3>
+      <p>We&rsquo;re actively growing traffic through content and SEO. Your listing benefits from every new visitor we attract.</p>
+    </div>
+  </div>
+</div>
+
+<div class="cta-strip">
+  <h2>Not sure which package is right for you?</h2>
+  <p>Drop us an email and we&rsquo;ll help you find the best fit for your business and budget. No hard sell &mdash; we only work with genuinely dog-friendly venues.</p>
+  <div class="cta-buttons">
+    <a href="mailto:hello@dogfriendlydg.co.uk?subject=Premium%20Listing%20Enquiry" class="btn btn-primary">Email Us</a>
+    <a href="/listings/" class="btn btn-outline">See Existing Listings</a>
+  </div>
+  <p style="margin-top:1.5rem;font-size:0.82rem;color:var(--text-light);font-family:Arial,Helvetica,sans-serif;">Prices shown exclude VAT. Minimum 1-month commitment. We reserve the right to decline listings that don&rsquo;t meet our dog-friendly standards.</p>
+</div>
