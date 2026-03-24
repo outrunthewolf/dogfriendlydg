@@ -30,3 +30,11 @@ Dogs of all sizes are welcome at a charge of £15 per dog per stay, with a maxim
 **Nearby Walks**
 
 Beyond the loch circuit, the surrounding farmland and Loch Ken are within easy reach for longer walks. The Ken-Dee Marshes RSPB reserve, Threave Estate (National Trust for Scotland), and the Galloway Hills are all accessible within a short drive.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Carlinwark+Loch+Lodges+Castle+Douglas&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Castle-Douglas/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
