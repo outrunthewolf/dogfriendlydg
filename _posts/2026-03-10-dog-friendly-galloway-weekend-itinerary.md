@@ -2,8 +2,10 @@
 layout: post
 title: "The Perfect Dog-Friendly Weekend in Dumfries and Galloway"
 date: 2026-03-10
+author: "Dog Friendly DG"
 categories: [guides]
 tags: [dog friendly weekend, dumfries and galloway, galloway, itinerary, dog holiday]
+description: "Plan the perfect dog-friendly weekend in Dumfries and Galloway. Two days of walks, beaches, pubs, and wildlife — the complete Scotland short break itinerary for dogs."
 excerpt: "Two days, two legs (or four) — the perfect dog-friendly weekend itinerary in Dumfries and Galloway, Scotland."
 ---
 

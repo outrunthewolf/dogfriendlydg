@@ -1,150 +1,41 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
   <url>
-    <loc>https://www.dogfriendlydg.co.uk/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>{{ site.url }}/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Static Pages -->
+  {% for post in site.posts %}
   <url>
-    <loc>https://www.dogfriendlydg.co.uk/blog/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+  {% endfor %}
 
-  <!-- Blog Posts -->
+  {% for listing in site.listings %}
   <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/01/best-dog-walks-galloway-forest-park/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>{{ site.url }}{{ listing.url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/08/dog-friendly-pubs-gatehouse-fleet/</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/10/best-dog-friendly-walks-galloway-forest/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/10/dog-friendly-beaches-solway-coast/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/10/dog-friendly-day-out-castle-douglas-loch-ken/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/10/dog-friendly-galloway-weekend-itinerary/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/10/dog-friendly-pubs-dumfries-galloway/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/10/galloway-dark-sky-park-with-dogs/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/12/tips-for-visiting-dumfries-galloway-with-dogs/</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/2026/03/17/dog-friendly-portpatrick/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  {% endfor %}
 
-  <!-- Listings -->
+  {% for page in site.pages %}
+  {% if page.url != "/sitemap.xml" and page.url != "/feed.xml" and page.layout %}
   <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/cardoness-castle-walk/</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>{{ site.url }}{{ page.url }}</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/cream-o-galloway/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/galloway-sailing-centre-accommodation/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/glen-trool-walk/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/mersehead-beach/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/murrays-monument-walk/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/newton-stewart-dog-groomers/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/sandgreen-beach/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/the-masonic-arms-gatehouse/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.dogfriendlydg.co.uk/listings/the-murray-arms-gatehouse/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  {% endif %}
+  {% endfor %}
 
 </urlset>

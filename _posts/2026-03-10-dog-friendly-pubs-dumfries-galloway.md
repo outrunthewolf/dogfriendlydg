@@ -2,8 +2,10 @@
 layout: post
 title: "The Best Dog-Friendly Pubs in Dumfries and Galloway"
 date: 2026-03-10
+author: "Dog Friendly DG"
 categories: [pubs-cafes]
 tags: [dog friendly pubs, dumfries and galloway, galloway, pubs, dogs welcome]
+description: "From cosy village locals to historic coaching inns — the best dog-friendly pubs in Dumfries and Galloway, tried and tested. Water bowls, fires, and genuine welcomes."
 excerpt: "From cosy village locals to historic coaching inns — the best dog-friendly pubs in Dumfries and Galloway, tried and tested."
 ---
 

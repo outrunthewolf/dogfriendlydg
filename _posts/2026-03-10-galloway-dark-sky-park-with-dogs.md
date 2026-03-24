@@ -2,8 +2,10 @@
 layout: post
 title: "Exploring Galloway Dark Sky Park With Your Dog"
 date: 2026-03-10
+author: "Dog Friendly DG"
 categories: [guides]
 tags: [galloway dark sky park, dog walks galloway, night walks, dumfries and galloway, stargazing]
+description: "Galloway Dark Sky Park is the UK's first dark sky park and one of its finest dog walking landscapes. Explore Clatteringshaws, Glen Trool, and Talnotry with four legs."
 excerpt: "Galloway Dark Sky Park is one of Scotland's most magical landscapes — and it's brilliant for dogs. Here's how to explore it with four legs."
 ---
 

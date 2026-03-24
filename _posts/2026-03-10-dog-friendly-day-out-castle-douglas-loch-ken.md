@@ -5,6 +5,7 @@ date: 2026-03-10
 author: "Dog Friendly DG"
 categories: [days-out, castle-douglas]
 tags: [Castle Douglas, Loch Ken, Red Kites, Ken-Dee Marshes, dog friendly day out]
+description: "Castle Douglas and Loch Ken make a perfect dog-friendly day out in Dumfries and Galloway. Red kites, loch swimming, RSPB walks, and Galloway's Food Town in one trip."
 excerpt: "Castle Douglas and Loch Ken make for one of the most rewarding dog-friendly day trips in Dumfries and Galloway -- here is how to make the most of it."
 ---
 

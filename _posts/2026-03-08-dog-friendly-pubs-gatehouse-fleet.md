@@ -5,6 +5,7 @@ date: 2026-03-08
 author: "Dog Friendly DG"
 categories: [pubs-cafes, gatehouse-of-fleet]
 tags: [dog friendly pubs, Gatehouse of Fleet, Murray Arms, Masonic Arms, post-walk food]
+description: "The Murray Arms and Masonic Arms in Gatehouse of Fleet both offer a genuine welcome for dogs. Here's what to expect at each after a day on the Galloway hills."
 excerpt: "Gatehouse of Fleet is one of Galloway's prettiest towns and has two excellent dog-friendly pubs -- here is what to expect at each."
 ---
 

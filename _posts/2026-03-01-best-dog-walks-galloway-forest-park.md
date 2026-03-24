@@ -5,6 +5,7 @@ date: 2026-03-01
 author: "Dog Friendly DG"
 categories: [walks, galloway-forest]
 tags: [dog walks, Galloway Forest Park, Glen Trool, Newton Stewart, off-lead walking]
+description: "Explore the best dog walks in Galloway Forest Park, Scotland's largest forest. Glen Trool, Murray's Monument, and Raiders Road — off-lead freedom awaits."
 excerpt: "Galloway Forest Park is one of Scotland's great wild spaces -- and one of its best for dogs. Here are the walks we keep coming back to."
 ---
 
