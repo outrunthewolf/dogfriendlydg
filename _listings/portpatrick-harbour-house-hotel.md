@@ -30,3 +30,11 @@ Dogs are welcome in the hotel's designated pet-friendly rooms at a charge of £1
 **Coastal Walking**
 
 The Portpatrick section of the Southern Upland Way offers dramatic cliff-top walking, with views across to Northern Ireland on clear days. The path north towards Stranraer and south towards the Mull of Galloway both offer excellent dog walking with manageable gradients and spectacular scenery.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Portpatrick+Harbour+House+Hotel&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Portpatrick/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
