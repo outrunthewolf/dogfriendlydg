@@ -30,3 +30,11 @@ Dogs are welcome in all rooms at a charge of £12.50 per dog per night, with a m
 **Dumfries and Beyond**
 
 Dumfries itself is a lively market town with strong Robert Burns connections -- the Burns House Museum and the Globe Inn (Burns's favourite howff) are worth visiting. Sweetheart Abbey at New Abbey, the magnificent Caerlaverock Castle, and the National Nature Reserve at Caerlaverock are all within easy reach for dog-friendly day trips.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Craigdhu+Country+House+Dumfries&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Dumfries/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
