@@ -30,3 +30,11 @@ Dogs are welcome on all pitches and in static caravans at a charge of just £2 p
 **Exploring from Glengap**
 
 Portpatrick village and its coastal path are within easy reach, as is the wild walking country of the Rhins peninsula. Loch Ryan, with its ferry connections and wildlife interest, is just north of Stranraer, and the Mull of Galloway -- Scotland's most southerly point -- makes a fine day trip.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Glengap+Holiday+Park+Stranraer&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Stranraer/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
