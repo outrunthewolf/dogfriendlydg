@@ -30,3 +30,11 @@ Dogs are welcome in all B&B rooms at no extra charge, which makes the Ardwell In
 **Nearby Attractions**
 
 Logans Botanic Garden, the Mull of Galloway Lighthouse (Scotland's most southerly point), and the pretty harbour town of Drummore are all within easy reach by car. The Rhins coastline offers some of the most undiscovered walking in southwest Scotland.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Ardwell+Inn+Portpatrick+Galloway&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Portpatrick/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
