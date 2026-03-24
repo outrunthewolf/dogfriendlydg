@@ -30,3 +30,11 @@ Dogs of all sizes are very welcome here at no extra charge, which is refreshingl
 **Walking from the Door**
 
 The forest tracks and hill paths begin immediately from the cottage, making this a perfect choice for owners who want to walk directly from the door without loading dogs in and out of the car every morning. The Loch Trool circuit, the Raiders Road Forest Drive, and the Southern Upland Way are all within easy reach.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Gateside+Auchengall+Glentrool&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Glentrool/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
