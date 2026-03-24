@@ -1,0 +1,319 @@
+---
+layout: default
+title: "Our Partners - Dog-Friendly Venues Across Dumfries and Galloway"
+description: "Meet the premium dog-friendly venues partnering with DogFriendlyDG to showcase the best experiences across Dumfries and Galloway."
+permalink: /partners/
+---
+
+<style>
+  .partners-hero {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .partners-hero h1 {
+    font-size: 2rem;
+    color: var(--green-dark);
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
+  .partners-hero .subheading {
+    font-size: 1.1rem;
+    color: var(--green-mid);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .partners-hero p.lead {
+    font-size: 1rem;
+    color: var(--text-light);
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  /* Partners grid */
+  .partners-section {
+    max-width: 1000px;
+    margin: 2.5rem auto 3rem;
+    padding: 0 1rem;
+  }
+  .partners-section h2 {
+    text-align: center;
+    font-size: 1.35rem;
+    color: var(--green-dark);
+    margin-bottom: 2rem;
+  }
+  .partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .partner-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.75rem 1.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.15s, box-shadow 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .partner-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  }
+  .partner-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+  .partner-card h3 {
+    font-size: 1.05rem;
+    color: var(--green-dark);
+    margin: 0;
+    line-height: 1.35;
+    flex: 1;
+  }
+  .partner-badge {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .badge-partner {
+    background: #fef3cc;
+    color: #7a5a00;
+  }
+  .badge-coming-soon {
+    background: #e8e8ec;
+    color: #3a3a5c;
+  }
+  .partner-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    align-items: center;
+  }
+  .partner-location {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .partner-location::before {
+    content: "\1F4CD";
+    margin-right: 0.25rem;
+    font-size: 0.75rem;
+  }
+  .partner-category {
+    display: inline-block;
+    padding: 0.15rem 0.6rem;
+    background: var(--sand);
+    border-radius: 99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: var(--text-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .partner-desc {
+    font-size: 0.88rem;
+    color: var(--text-light);
+    line-height: 1.6;
+    margin-top: 0.25rem;
+  }
+  .partner-coming-label {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* CTA section */
+  .partners-cta {
+    max-width: 720px;
+    margin: 0 auto 3rem;
+    padding: 2.5rem 2rem;
+    background: var(--sand);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .partners-cta h2 {
+    font-size: 1.4rem;
+    color: var(--green-dark);
+    margin-bottom: 0.75rem;
+  }
+  .partners-cta p {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  .partners-cta ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.75rem;
+    display: inline-block;
+    text-align: left;
+  }
+  .partners-cta ul li {
+    padding: 0.3rem 0 0.3rem 1.6rem;
+    position: relative;
+    font-size: 0.92rem;
+    color: var(--text);
+  }
+  .partners-cta ul li::before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: var(--green-mid);
+    font-weight: bold;
+  }
+  .partners-cta .btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 640px) {
+    .partners-hero h1 { font-size: 1.5rem; }
+    .partners-grid { grid-template-columns: 1fr; }
+    .partners-cta { padding: 2rem 1.25rem; }
+    .partner-card-top { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+
+<div class="partners-hero">
+  <h1>Our Partners</h1>
+  <p class="subheading">Featured dog-friendly venues across Dumfries and Galloway</p>
+  <p class="lead">These venues partner with us to bring you the best dog-friendly experiences. Premium partners receive featured placement, enhanced profiles, and priority promotion.</p>
+</div>
+
+<div class="partners-section">
+  <h2>Premium Listing Partners</h2>
+  <div class="partners-grid">
+
+    <!-- The Cally Hotel -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>The Cally Hotel</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Gatehouse of Fleet</span>
+        <span class="partner-category">Hotel</span>
+      </div>
+      <p class="partner-desc">Historic country house hotel set in 150 acres of Galloway woodland, welcoming dogs in dedicated dog-friendly rooms.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+    <!-- Portpatrick Harbour House Hotel -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>Portpatrick Harbour House Hotel</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Portpatrick</span>
+        <span class="partner-category">Hotel</span>
+      </div>
+      <p class="partner-desc">Boutique harbour-front hotel in one of Galloway&rsquo;s most charming coastal villages, perfectly placed for clifftop walks with your dog.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+    <!-- The Murray Arms -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>The Murray Arms</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Gatehouse of Fleet</span>
+        <span class="partner-category">Pub &amp; Inn</span>
+      </div>
+      <p class="partner-desc">A historic Burns Country inn with a warm welcome for dogs in the bar and beer garden. Great food and real ales after a day on the trails.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+    <!-- Kings Arms Hotel -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>Kings Arms Hotel</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Castle Douglas</span>
+        <span class="partner-category">Hotel</span>
+      </div>
+      <p class="partner-desc">A welcoming town centre hotel in the heart of Castle Douglas, D&amp;G&rsquo;s Food Town, ideal for exploring Loch Ken and the surrounding countryside with your dog.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+    <!-- Cream o' Galloway -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>Cream o&rsquo; Galloway</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Gatehouse of Fleet</span>
+        <span class="partner-category">Attraction</span>
+      </div>
+      <p class="partner-desc">Organic dairy farm and adventure playground with miles of dog-friendly walking trails, wildlife, and the finest ice cream in Galloway.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+    <!-- Galloway Wildlife Conservation Park -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>Galloway Wildlife Conservation Park</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Kirkcudbright</span>
+        <span class="partner-category">Attraction</span>
+      </div>
+      <p class="partner-desc">Scotland&rsquo;s largest wildlife conservation park, set in beautiful Galloway woodland &mdash; a great day out for dog-owning families exploring the region.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+    <!-- Galloway House Hotel -->
+    <div class="partner-card">
+      <div class="partner-card-top">
+        <h3>Galloway House Hotel</h3>
+        <span class="partner-badge badge-coming-soon">Coming Soon</span>
+      </div>
+      <div class="partner-meta">
+        <span class="partner-location">Garlieston</span>
+        <span class="partner-category">Hotel</span>
+      </div>
+      <p class="partner-desc">Elegant country house hotel on the Machars peninsula with peaceful grounds and easy access to the Galloway coast &mdash; a hidden gem for dog owners.</p>
+      <p class="partner-coming-label">Full listing coming soon</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="partners-cta">
+  <h2>Interested in becoming a partner?</h2>
+  <p>Join the growing list of dog-friendly businesses across Dumfries &amp; Galloway that trust DogFriendlyDG to reach their ideal customers.</p>
+  <ul>
+    <li>Featured placement on your category and area pages</li>
+    <li>Enhanced profile with photos, descriptions, and dog-friendly details</li>
+    <li>Priority promotion to 5,000+ monthly dog-owner visitors</li>
+    <li>SEO-optimised listing that ranks for local dog-friendly searches</li>
+    <li>Optional dedicated guide post and social media promotion</li>
+    <li>Simple monthly pricing &mdash; cancel anytime</li>
+  </ul>
+  <a href="/premium-listings/" class="btn btn-primary">Partner with Us</a>
+</div>
