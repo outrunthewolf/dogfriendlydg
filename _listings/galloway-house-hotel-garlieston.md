@@ -30,3 +30,11 @@ Dogs are welcome in the hotel's ground-floor garden rooms at a charge of £15 pe
 **Wigtown and the Book Town**
 
 Wigtown, Scotland's National Book Town, is just a short drive away and is a genuinely dog-friendly small town with independent bookshops, cafes, and the excellent Bladnoch Distillery nearby. The Martyrs' Stake and Wigtown Bay nature reserve are easy walking distance from the town centre.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Galloway+House+Hotel+Garlieston+Wigtown&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Wigtown/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
