@@ -30,3 +30,11 @@ Dogs are welcome on all pitches at no extra charge, with no stated limit on numb
 **Gatehouse of Fleet and Fleet Forest**
 
 Gatehouse of Fleet is a well-preserved Georgian planned town with a good range of independent shops, the excellent Murray Arms Hotel, and the Mill on the Fleet visitor centre. Fleet Forest offers excellent waymarked dog walks ranging from short riverside strolls to longer forest circuits, all beginning a few minutes' walk from the park.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Drumcroy+Caravan+Park+Gatehouse+of+Fleet&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Gatehouse-of-Fleet/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
