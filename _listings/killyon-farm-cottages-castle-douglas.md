@@ -30,3 +30,11 @@ Up to two dogs are welcome per cottage at a charge of £20 per dog per stay. Dog
 **Nearby Walks**
 
 Loch Ken is within easy reach, with waymarked trails along the loch shore and through the Ken-Dee Marshes RSPB reserve. The Galloway Hills offer more demanding walks for adventurous owners, while the quiet lanes and field paths around Gelston are ideal for gentle morning strolls.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Killyon+Farm+Cottages+Castle+Douglas&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Castle-Douglas/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
