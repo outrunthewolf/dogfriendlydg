@@ -34,3 +34,11 @@ The Murray Arms also offers accommodation, and dogs are welcome in bedrooms -- m
 **Nearby Attractions**
 
 From the Murray Arms you can walk to Cardoness Castle in under ten minutes by car, reach Sandgreen Beach in five minutes, and be at the foot of the Galloway Hills within half an hour. For dog owners, it is hard to find a better-positioned base in southwest Scotland.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Murray+Arms+Hotel+Gatehouse+of+Fleet&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Gatehouse-of-Fleet/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
