@@ -30,3 +30,11 @@ Dogs are welcome in selected ground-floor rooms at £15 per dog per night, with 
 **Gatehouse of Fleet**
 
 The attractive small town of Gatehouse of Fleet is just a short walk from the hotel gates, with the Mill on the Fleet visitor centre, local pubs, and independent shops providing easy entertainment on rest days.
+
+## Book Your Stay
+
+Check availability and book directly:
+- **[Booking.com](https://www.booking.com/searchresults.html?ss=Cally+Hotel+Gatehouse+of+Fleet&aid=304199&label=dogfriendlydg)** — Best rates, free cancellation
+- **[Airbnb](https://www.airbnb.co.uk/s/Gatehouse-of-Fleet/homes?affiliate_id=DFDG2026)** — Unique stays and self-catering
+
+*DogFriendlyDG may earn a commission from bookings at no extra cost to you.*
