@@ -27,29 +27,30 @@ We currently reach several thousand dog-owning visitors each month who are activ
 
 ## What a Premium Listing Looks Like
 
-Right now we offer three simple tiers. All include a dedicated listing page optimised for Google, plus placement in our regional guides.
+Right now we offer three simple tiers. All are one-off payments — you pay once and your listing stays on the site permanently, with free updates any time.
 
-**Bronze -- 50/month**
-- Your own listing page with photos, description, and contact details
-- Listed in your category (accommodation / pub / attraction etc.)
-- "Dog Friendly" badge and basic amenities summary
-- Indexed by Google and linked from our guides
+**Bronze — £75 one-off, listed forever**
+- Featured pin on our interactive map page
+- Enhanced profile with photos, dog amenities listed, and social links
+- Direct link to your website or booking page
+- Priority placement in your venue category pages
+- Free updates any time — menu, hours, photos, anything
 
-**Silver -- 100/month**
+**Silver — £125 one-off, listed forever** *(most popular)*
 - Everything in Bronze
-- Featured placement at the top of your category page
-- Highlighted in our monthly roundup emails
-- Enhanced profile: opening hours, pricing, map, full dog policy
-- Priority placement in relevant blog posts
+- Homepage featured rotation — your venue in the top spots seen by every visitor
+- "Premium Partner" badge displayed on your listing
+- Dedicated "Why Visit" section on your profile (around 150 words, written by us)
+- Quarterly social media shout-out on our Facebook and Instagram
 
-**Gold -- 200/month**
+**Gold — £200 one-off, listed forever**
 - Everything in Silver
-- Top-of-page placement across all relevant category and location pages
-- A dedicated editorial guide post written about your venue (great for SEO)
-- Social media promotion to our audience
-- Quarterly performance summary showing clicks and impressions
+- A dedicated blog post written about your venue (published within 30 days, SEO-optimised, 1,000+ words)
+- Permanent top-3 placement in your category — always near the top of the list
+- Direct enquiry form on your listing so visitors can contact you straight from the page
+- Annual check-in call to review and refresh your listing
 
-Join 15+ local businesses already reaching dog owners through DogFriendlyDG.
+No monthly fees. No renewal reminders. Pay once, and you're on the site for as long as we're running.
 
 ---
 
