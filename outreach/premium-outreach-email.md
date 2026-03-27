@@ -17,7 +17,7 @@ Personalise the [BRACKETED] sections for each recipient before sending.
 
 Hi [CONTACT NAME / there],
 
-I hope you don't mind me dropping you a quick note. My name is Chris, and I run DogFriendlyDG.co.uk — a local guide helping dog owners discover the best places to stay, eat, walk, and explore across Dumfries and Galloway.
+I hope you don't mind me dropping you a quick note. I run DogFriendlyDG.co.uk — a local guide helping dog owners discover the best places to stay, eat, walk, and explore across Dumfries and Galloway.
 
 I came across [BUSINESS NAME] and [PERSONALISED REFERENCE — e.g. "loved reading about your lakeside lodges" / "we already feature you in our pub guide and the response has been great" / "your coastal location looks perfect for the walkers and dog owners we write for"] — exactly the kind of place our readers are always looking for.
 
@@ -64,9 +64,8 @@ Thanks so much for your time, and keep up the brilliant work welcoming dogs to [
 
 Best wishes,
 
-Chris Nash
-Founder, DogFriendlyDG.co.uk
-chris@dogfriendlydg.co.uk
+Dog Friendly DG
+hello@dogfriendlydg.co.uk
 https://dogfriendlydg.co.uk
 
 ---
