@@ -63,14 +63,13 @@ permalink: /map/
     border-radius: 50%;
     display: inline-block;
   }
-  .dot-all       { background: var(--green-mid); }
-  .dot-walk      { background: #3a7bd5; }
-  .dot-beach     { background: #00b4d8; }
-  .dot-pub       { background: #e07b39; }
-  .dot-accom     { background: #9b59b6; }
-  .dot-attract   { background: #e74c3c; }
-  .dot-service   { background: #27ae60; }
-  .dot-premium   { background: #f1c40f; }
+  .dot-all         { background: var(--green-mid); }
+  .dot-walk        { background: #3a7bd5; }
+  .dot-beach       { background: #00b4d8; }
+  .dot-pub-cafe    { background: #e07b39; }
+  .dot-accom       { background: #9b59b6; }
+  .dot-attraction  { background: #e74c3c; }
+  .dot-vet-groomer { background: #27ae60; }
 
   /* Map container */
   .map-container {
@@ -118,20 +117,6 @@ permalink: /map/
     font-weight: 600;
   }
   .map-popup a:hover { text-decoration: underline; }
-  .popup-premium-badge {
-    display: inline-block;
-    font-size: 0.7rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    background: #fef3cc;
-    color: #7a5a00;
-    border-radius: 99px;
-    padding: 0.1rem 0.5rem;
-    margin-left: 0.4rem;
-    vertical-align: middle;
-  }
 
   /* Listing panel below map */
   .map-listing-strip {
@@ -234,17 +219,17 @@ permalink: /map/
   <button class="filter-btn" data-filter="beach">
     <span class="filter-dot dot-beach"></span> Beaches
   </button>
-  <button class="filter-btn" data-filter="pub">
-    <span class="filter-dot dot-pub"></span> Pubs &amp; Cafes
+  <button class="filter-btn" data-filter="pub-cafe">
+    <span class="filter-dot dot-pub-cafe"></span> Pubs &amp; Cafes
   </button>
   <button class="filter-btn" data-filter="accommodation">
     <span class="filter-dot dot-accom"></span> Accommodation
   </button>
   <button class="filter-btn" data-filter="attraction">
-    <span class="filter-dot dot-attract"></span> Attractions
+    <span class="filter-dot dot-attraction"></span> Attractions
   </button>
-  <button class="filter-btn" data-filter="service">
-    <span class="filter-dot dot-service"></span> Vets &amp; Services
+  <button class="filter-btn" data-filter="vet-groomer">
+    <span class="filter-dot dot-vet-groomer"></span> Vets &amp; Groomers
   </button>
 </div>
 
@@ -274,51 +259,30 @@ permalink: /map/
 <script>
 (function() {
   // ---------------------------------------------------------------
-  // Place data — extend this array as new listings are added
+  // Place data — generated from Jekyll listings collection
   // ---------------------------------------------------------------
   var places = [
-    // Walks
-    { name: "Galloway Forest Park — Raiders Road", category: "walk", lat: 55.1167, lng: -4.3500, summary: "12-mile forest drive trail open to walkers and dogs on leads. Red kites overhead.", url: "/walks/", premium: false },
-    { name: "Merrick — highest point in southern Scotland", category: "walk", lat: 55.1600, lng: -4.4900, summary: "Full-day hill walk. Dogs welcome on leads through the forest approach.", url: "/walks/", premium: false },
-    { name: "Rockcliffe to Kippford Coastal Path", category: "walk", lat: 54.8700, lng: -3.8200, summary: "Easy 3-mile coastal path between two pretty villages. Sandy beaches en route.", url: "/walks/", premium: false },
-    // Beaches
-    { name: "Mersehead Beach", category: "beach", lat: 54.9100, lng: -3.6800, summary: "Remote RSPB reserve beach. Dogs welcome year-round on the beach itself.", url: "/listings/mersehead-beach/", premium: false },
-    { name: "Sandyhills Beach", category: "beach", lat: 54.8850, lng: -3.7500, summary: "Sandy cove on the Solway coast. Well-behaved dogs welcome.", url: "/beaches/", premium: false },
-    { name: "Portpatrick Harbour Beach", category: "beach", lat: 54.8400, lng: -5.1167, summary: "Small sheltered beach in the village. Dogs welcome year-round.", url: "/beaches/", premium: false },
-    // Pubs & Cafes
-    { name: "The Murray Arms, Gatehouse of Fleet", category: "pub", lat: 54.8900, lng: -4.1600, summary: "Historic coaching inn. Dogs welcome in the bar and lounge. Burns connection.", url: "/listings/the-murray-arms-gatehouse/", premium: true },
-    { name: "Cream o' Galloway", category: "pub", lat: 54.8600, lng: -4.2200, summary: "Organic ice cream farm and cafe. Dogs welcome in outdoor areas.", url: "/listings/cream-o-galloway/", premium: true },
-    { name: "Portpatrick Harbour Cafe", category: "pub", lat: 54.8400, lng: -5.1180, summary: "Harbourside cafe with outdoor seating. Dogs very welcome.", url: "/pubs-cafes/", premium: false },
-    // Accommodation
-    { name: "The Cally Hotel, Gatehouse of Fleet", category: "accommodation", lat: 54.8880, lng: -4.1580, summary: "Georgian country house hotel. Dogs welcome in selected ground-floor rooms. 500-acre estate.", url: "/listings/cally-hotel-gatehouse-of-fleet/", premium: true },
-    { name: "Portpatrick Harbour House Hotel", category: "accommodation", lat: 54.8410, lng: -5.1150, summary: "Boutique hotel with harbour views. Dog-friendly rooms available.", url: "/listings/portpatrick-harbour-house-hotel/", premium: true },
-    { name: "Galloway House Hotel, Garlieston", category: "accommodation", lat: 54.7980, lng: -4.3620, summary: "Country house hotel near Wigtown Bay. Dogs welcome in ground-floor rooms.", url: "/listings/galloway-house-hotel-garlieston/", premium: true },
-    // Attractions
-    { name: "Galloway Wildlife Conservation Park", category: "attraction", lat: 54.9600, lng: -3.9200, summary: "Scotland's largest wildlife park. Dogs on leads welcome in grounds (not inside enclosures).", url: "/listings/galloway-wildlife-conservation-park/", premium: true },
-    { name: "Caerlaverock Castle", category: "attraction", lat: 54.9900, lng: -3.5500, summary: "Stunning triangular moated castle. Dogs on leads welcome in grounds.", url: "/listings/", premium: false },
-    { name: "Threave Castle", category: "attraction", lat: 54.9200, lng: -3.9800, summary: "Island castle accessible by boat. Dogs welcome on leads.", url: "/listings/", premium: false },
-    // Services
-    { name: "Dumfries Veterinary Hospital", category: "service", lat: 55.0700, lng: -3.6100, summary: "Full-service veterinary hospital in Dumfries town centre.", url: "/vets-groomers/", premium: false },
-    { name: "Newton Stewart Dog Groomers", category: "service", lat: 54.9600, lng: -4.4900, summary: "Professional dog grooming in Newton Stewart.", url: "/listings/newton-stewart-dog-groomers/", premium: false }
+    {% for listing in site.listings %}{% if listing.lat and listing.lng %}
+    { name: {{ listing.name | jsonify }}, category: {{ listing.category | jsonify }}, lat: {{ listing.lat }}, lng: {{ listing.lng }}, summary: {{ listing.excerpt | jsonify }}, url: {{ listing.url | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {% endif %}{% endfor %}
   ];
 
   // Marker colours per category
   var colours = {
-    walk:          '#3a7bd5',
-    beach:         '#00b4d8',
-    pub:           '#e07b39',
-    accommodation: '#9b59b6',
-    attraction:    '#e74c3c',
-    service:       '#27ae60'
+    'walk':          '#3a7bd5',
+    'beach':         '#00b4d8',
+    'pub-cafe':      '#e07b39',
+    'accommodation': '#9b59b6',
+    'attraction':    '#e74c3c',
+    'vet-groomer':   '#27ae60'
   };
 
-  function makeIcon(category, premium) {
+  function makeIcon(category) {
     var colour = colours[category] || '#4a7c2f';
-    var size = premium ? 14 : 10;
-    var border = premium ? '3px solid #f1c40f' : '2px solid rgba(255,255,255,0.9)';
+    var size = 10;
     return L.divIcon({
       className: '',
-      html: '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + colour + ';border:' + border + ';box-shadow:0 1px 4px rgba(0,0,0,0.35);"></div>',
+      html: '<div style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;background:' + colour + ';border:2px solid rgba(255,255,255,0.9);box-shadow:0 1px 4px rgba(0,0,0,0.35);"></div>',
       iconSize: [size, size],
       iconAnchor: [size/2, size/2]
     });
@@ -339,14 +303,13 @@ permalink: /map/
   // Build markers
   var markers = [];
   places.forEach(function(p) {
-    var premiumHtml = p.premium ? '<span class="popup-premium-badge">Premium</span>' : '';
     var popupHtml = '<div class="map-popup">'
-      + '<div class="popup-category">' + p.category.replace('_',' ') + '</div>'
-      + '<h3>' + p.name + premiumHtml + '</h3>'
+      + '<div class="popup-category">' + p.category.replace('-',' ') + '</div>'
+      + '<h3>' + p.name + '</h3>'
       + '<p>' + p.summary + '</p>'
       + '<a href="' + p.url + '">View full listing &rarr;</a>'
       + '</div>';
-    var marker = L.marker([p.lat, p.lng], { icon: makeIcon(p.category, p.premium) })
+    var marker = L.marker([p.lat, p.lng], { icon: makeIcon(p.category) })
       .bindPopup(popupHtml, { maxWidth: 260 });
     marker._placeData = p;
     markers.push(marker);
@@ -378,10 +341,9 @@ permalink: /map/
     // Show max 8
     var shown = filtered.slice(0, 8);
     grid.innerHTML = shown.map(function(p) {
-      var premBadge = p.premium ? '<span style="font-size:0.7rem;font-family:Arial,sans-serif;font-weight:700;text-transform:uppercase;background:#fef3cc;color:#7a5a00;border-radius:99px;padding:0.1rem 0.5rem;margin-left:0.4rem;">Premium</span>' : '';
       return '<div class="map-listing-card">'
-        + '<div class="card-category">' + p.category.replace('_',' ') + '</div>'
-        + '<h3>' + p.name + premBadge + '</h3>'
+        + '<div class="card-category">' + p.category.replace('-',' ') + '</div>'
+        + '<h3>' + p.name + '</h3>'
         + '<p>' + p.summary + '</p>'
         + '<a href="' + p.url + '">View listing &rarr;</a>'
         + '</div>';
