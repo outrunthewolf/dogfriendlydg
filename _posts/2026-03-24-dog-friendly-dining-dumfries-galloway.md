@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Dog-Friendly Dining in Dumfries & Galloway"
+title: "Dog-Friendly Dining in Dumfries and Galloway"
 date: 2026-03-24
 categories: [guides, food-and-drink]
 tags: [dog friendly dining, dumfries and galloway, dog friendly restaurants, dog friendly pubs, places to eat with dogs, galloway food, scotland]
 excerpt: "From historic coaching inns to harbour-side bistros, Dumfries and Galloway has an outstanding range of places to eat and drink with your dog. Here is the complete guide."
-description: "The complete guide to dog-friendly dining in Dumfries and Galloway — pubs, restaurants and cafes where your dog gets as warm a welcome as you do."
+description: "8 reviewed dog-friendly venues across Dumfries and Galloway — pubs, inns and cafes where your dog is genuinely welcome inside. Gatehouse, Kirkcudbright, Portpatrick and more."
 author: "Dog Friendly DG"
 image: "/assets/images/dog-friendly-dining-dumfries-galloway.jpg"
 ---

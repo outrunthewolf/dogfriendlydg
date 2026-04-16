@@ -127,11 +127,11 @@ layout: default
 <!-- HERO -->
 <section class="hero">
   <div class="hero-content">
-    <h1>Find Dog-Friendly Places in Dumfries &amp; Galloway</h1>
-    <p>Discover the best walks, beaches, pubs, cafes and places to stay that welcome you and your dog across Scotland's most beautiful region.</p>
+    <h1>Dog-Friendly Places to Eat and Drink in Dumfries and Galloway</h1>
+    <p>Pubs, inns and cafes that genuinely welcome your dog inside — plus walks, beaches and places to stay across Scotland's most beautiful region.</p>
     <div class="hero-cta">
-      <a href="/walks/" class="btn btn-hero-primary">Explore Walks</a>
-      <a href="/map/" class="btn btn-hero-outline">View Map</a>
+      <a href="/pubs-cafes/" class="btn btn-hero-primary">Find Places to Eat</a>
+      <a href="/walks/" class="btn btn-hero-outline">Explore Walks</a>
       <a href="/accommodation/" class="btn btn-hero-outline">Find Accommodation</a>
     </div>
   </div>
@@ -141,15 +141,15 @@ layout: default
 <section class="categories-section">
   <h2 class="section-heading">Browse by Category</h2>
   <div class="categories-grid">
+    <a class="cat-card" href="/pubs-cafes/">
+      <span class="cat-icon">&#x1F37A;</span>
+      <span class="cat-name">Dining &amp; Drinks</span>
+      <span class="cat-desc">Pubs, inns &amp; cafes</span>
+    </a>
     <a class="cat-card" href="/walks/">
       <span class="cat-icon">&#x1F6B6;</span>
       <span class="cat-name">Walks</span>
       <span class="cat-desc">Trails &amp; forest paths</span>
-    </a>
-    <a class="cat-card" href="/pubs-cafes/">
-      <span class="cat-icon">&#x1F37A;</span>
-      <span class="cat-name">Pubs &amp; Cafes</span>
-      <span class="cat-desc">Dog-friendly venues</span>
     </a>
     <a class="cat-card" href="/beaches/">
       <span class="cat-icon">&#x1F3D6;</span>
@@ -184,19 +184,18 @@ layout: default
   </div>
 </section>
 
-<!-- RECENT LISTINGS -->
+<!-- DINING LISTINGS -->
 <section class="listings-section">
   <h2 class="section-heading">
-    Recent Listings
-    <a href="/listings/">View all &rarr;</a>
+    Dog-Friendly Places to Eat and Drink
+    <a href="/pubs-cafes/">View all &rarr;</a>
   </h2>
   <div class="listing-cards">
-    {% assign recent_listings = site.listings | sort: 'date' | reverse | limit: 6 %}
-    {% for listing in recent_listings %}
+    {% assign dining_listings = site.listings | where: "category", "pub-cafe" %}
+    {% for listing in dining_listings limit: 6 %}
     <div class="listing-card">
       <div class="listing-card-title"><a href="{{ listing.url }}">{{ listing.name | default: listing.title }}</a></div>
-      {% assign cat = listing.category | default: listing.categories[0] %}
-      {% if cat %}<span class="badge badge-{{ cat }}">{{ cat | replace: '-', ' ' | capitalize }}</span>{% endif %}
+      <span class="badge badge-pub-cafe">Dining &amp; Drinks</span>
       {% if listing.description %}
         <p class="listing-card-excerpt">{{ listing.description | truncate: 100 }}</p>
       {% else %}
@@ -213,11 +212,21 @@ layout: default
 <!-- RECENT POSTS -->
 <section class="posts-section">
   <h2 class="section-heading">
-    Latest Guides &amp; Articles
+    Guides &amp; Articles
     <a href="/guides/">View all &rarr;</a>
   </h2>
   <div class="post-cards">
-    {% for post in site.posts limit: 3 %}
+    {% assign dining_post = site.posts | where: "categories", "food-and-drink" | first %}
+    {% if dining_post %}
+    <div class="post-card">
+      <span class="post-card-date">{{ dining_post.date | date: "%d %b %Y" }}</span>
+      <div class="post-card-title"><a href="{{ dining_post.url }}">{{ dining_post.title }}</a></div>
+      <p class="post-card-excerpt">{{ dining_post.excerpt | strip_html | truncate: 120 }}</p>
+      <a class="post-card-read-more" href="{{ dining_post.url }}">Read more &rarr;</a>
+    </div>
+    {% endif %}
+    {% assign other_posts = site.posts | reject: "categories", "food-and-drink" | limit: 2 %}
+    {% for post in other_posts %}
     <div class="post-card">
       <span class="post-card-date">{{ post.date | date: "%d %b %Y" }}</span>
       <div class="post-card-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
