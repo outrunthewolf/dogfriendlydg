@@ -32,6 +32,10 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: /assets/images/social-seo.png
+  - scope:
+      path: ""
       type: listings
     values:
       layout: listing
@@ -54,3 +58,4 @@ timezone: Europe/London
 
 # SEO
 lang: en-GB
+logo: /assets/images/social-seo.png
