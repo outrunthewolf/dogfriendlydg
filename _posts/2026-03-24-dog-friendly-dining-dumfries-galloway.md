@@ -124,6 +124,7 @@ Dogs are welcome in the bar area, and the staff are friendly and relaxed about i
 - Food: Lunch and dinner
 - Water bowls: Yes on request
 - Best for: History, atmosphere, Burns heritage
+- [Full Globe Inn listing on Dog Friendly DG](/listings/the-globe-inn-dumfries)
 
 ---
 
