@@ -68,6 +68,8 @@ The tradition here is that anyone who sits in Burns' chair must recite a verse o
 
 **Dogs allowed inside:** Yes, throughout the bar.
 
+**[Full Globe Inn listing on Dog Friendly DG](/listings/the-globe-inn-dumfries)**
+
 ---
 
 ## 4. The Selkirk Arms, Kirkcudbright
