@@ -126,7 +126,7 @@ Dogs are welcome in the bar and at the outdoor tables, and the staff are genuine
 
 ---
 
-## 7. The Galloway Arms, Castle Douglas
+## 7. [The Galloway Arms, Castle Douglas](/listings/galloway-arms-castle-douglas/)
 
 **The vibe:** Solid, food-focused town pub in Scotland's Food Town. Castle Douglas takes its Food Town designation seriously, and the Galloway Arms reflects this — it is a pub that cares about what it serves, with a menu that draws on the exceptional local produce the town is surrounded by.
 
