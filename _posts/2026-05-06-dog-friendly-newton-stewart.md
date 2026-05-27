@@ -35,7 +35,7 @@ For an easy in-town walk, the River Cree runs through the western edge of Newton
 
 ### The Creebridge House Hotel
 
-Just across the river in Minnigaff, the Creebridge House Hotel is a country house hotel set in mature gardens beside the Cree, with a bar and restaurant that welcomes dogs. It is the best option in the area for a proper sit-down meal with your dog after a day in the hills — the bar has a relaxed atmosphere, a good selection of local ales and whiskies, and a menu that takes Galloway's outstanding local produce seriously. Local game, venison, and Solway seafood feature regularly. Water bowls are provided in the bar and the grounds are walkable with a dog.
+Just across the river in Minnigaff, the [Creebridge House Hotel](/listings/creebridge-house-hotel-newton-stewart/) is a country house hotel set in mature gardens beside the Cree, with a bar and restaurant that welcomes dogs. It is the best option in the area for a proper sit-down meal with your dog after a day in the hills — the bar has a relaxed atmosphere, a good selection of local ales and whiskies, and a menu that takes Galloway's outstanding local produce seriously. Local game, venison, and Solway seafood feature regularly. Water bowls are provided in the bar and the grounds are walkable with a dog.
 
 **Practical details:**
 - Address: Minnigaff, Newton Stewart, DG8 6NP
