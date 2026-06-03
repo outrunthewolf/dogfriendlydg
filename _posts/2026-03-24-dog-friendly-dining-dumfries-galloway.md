@@ -168,6 +168,26 @@ Just outside Newton Stewart, the Creebridge House Hotel is a country house hotel
 
 ---
 
+## Moffat: Hill Town Dining with Dogs
+
+Moffat sits at the head of Annandale on the A74(M) corridor, making it one of the most accessible towns in Dumfries and Galloway for visitors travelling from the south. It is also one of the best for arriving hungry with a muddy dog after a day in the hills.
+
+### The Black Bull Hotel
+
+[The Black Bull Hotel](/listings/black-bull-hotel-moffat/) is the centrepiece of dog-friendly dining in Moffat — a 16th-century coaching inn on the High Street with low-beamed ceilings, open fires, and a bar that has welcomed walkers and travellers for centuries. Dogs are welcome throughout the bar, water bowls are provided, and the staff have the relaxed confidence about four-legged guests that comes from long experience. Food is honest and generous: exactly what a day in the Moffat Hills demands.
+
+Moffat is the obvious base for visiting Grey Mare's Tail, one of Scotland's most spectacular waterfalls, and the pub is ideally placed as a post-walk destination for anyone making the trip.
+
+**Practical details:**
+- Address: High Street, Moffat, DG10 9EG
+- Dogs: Welcome in the bar
+- Food: Lunch and dinner
+- Water bowls: Yes
+- Best for: Post-walk warming up, Moffat Hills and Grey Mare's Tail base
+- [Full Black Bull Hotel listing on Dog Friendly DG](/listings/black-bull-hotel-moffat/)
+
+---
+
 ## Cream o' Galloway: A Landmark Dog-Friendly Cafe
 
 No guide to dog-friendly dining in Dumfries and Galloway would be complete without Cream o' Galloway, the famous organic dairy and ice cream farm near Gatehouse of Fleet. Dogs are welcome at the outdoor seating areas, and the combination of exceptional homemade ice cream, a good cafe menu, and an adventure playground (for the children, not the dogs) makes it a reliable stop for families.
@@ -238,6 +258,7 @@ This means that even a modest pub in this part of the world often serves better 
 | The Galloway Arms | Castle Douglas | Food town dining, Loch Ken base |
 | The Crown Hotel | Portpatrick | Harbour views, seafood |
 | The Creebridge House | Newton Stewart | Country house, post-hills |
+| The Black Bull Hotel | Moffat | Post-hills warming up, Grey Mare's Tail base |
 | Cream o' Galloway | Gatehouse of Fleet | Families, ice cream, cafe |
 
 For the full picture across the region — including beaches, walks, and accommodation — browse the complete [Dog Friendly DG listings](/listings/).
