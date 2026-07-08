@@ -168,6 +168,23 @@ Just outside Newton Stewart, the Creebridge House Hotel is a country house hotel
 
 ---
 
+## Moffat: Gateway Town Dining
+
+Moffat, at the head of Annandale where the A74(M) meets the Borders hills, is one of the most accessible dog-friendly destinations in Dumfries and Galloway. The town is a natural stopping point on journeys north and south, and it has a handsome High Street with several options for eating and drinking with a dog.
+
+### The Black Bull Hotel
+
+[The Black Bull Hotel](/listings/black-bull-hotel-moffat/) is the most atmospheric place to eat and drink in Moffat — a 16th-century coaching inn with low-beamed ceilings, stone floors, and open fires that have been warming travellers since the reign of James VI. The bar is dog-friendly throughout, and the food is honest and substantial: exactly what you need after a day on the Moffat Hills or a visit to Grey Mare's Tail, the spectacular NTS waterfall ten miles northeast of town.
+
+**Practical details:**
+- Address: High Street, Moffat
+- Dogs: Welcome in the bar
+- Food: Lunch and dinner
+- Water bowls: Available on request
+- Best for: Post-hills dining, breaking a long journey, atmospheric coaching inn setting
+
+---
+
 ## Cream o' Galloway: A Landmark Dog-Friendly Cafe
 
 No guide to dog-friendly dining in Dumfries and Galloway would be complete without Cream o' Galloway, the famous organic dairy and ice cream farm near Gatehouse of Fleet. Dogs are welcome at the outdoor seating areas, and the combination of exceptional homemade ice cream, a good cafe menu, and an adventure playground (for the children, not the dogs) makes it a reliable stop for families.
@@ -195,6 +212,7 @@ The best dog-friendly dining experiences in Dumfries and Galloway come when you 
 - **Glen Trool walk + The Creebridge House** — 30 minutes from the loch to the bar, enough time to dry off a bit
 - **Portpatrick clifftop walk + The Crown Hotel** — walk ends practically at the pub door
 - **Kirkcudbright harbour walk + The Selkirk Arms** — a five-minute walk from the harbour to the pub
+- **Grey Mare's Tail + The Black Bull Hotel, Moffat** — 20 minutes from the falls car park; the coaching inn is a worthy destination after a spectacular waterfall walk
 
 ### Bring the Essentials
 
@@ -238,6 +256,7 @@ This means that even a modest pub in this part of the world often serves better 
 | The Galloway Arms | Castle Douglas | Food town dining, Loch Ken base |
 | The Crown Hotel | Portpatrick | Harbour views, seafood |
 | The Creebridge House | Newton Stewart | Country house, post-hills |
+| The Black Bull Hotel | Moffat | Coaching inn, journey stop |
 | Cream o' Galloway | Gatehouse of Fleet | Families, ice cream, cafe |
 
 For the full picture across the region — including beaches, walks, and accommodation — browse the complete [Dog Friendly DG listings](/listings/).
