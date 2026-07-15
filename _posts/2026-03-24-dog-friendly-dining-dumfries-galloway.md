@@ -151,6 +151,26 @@ Another solid option in Portpatrick, the Waterfront welcomes dogs in the bar and
 
 ---
 
+## Moffat: The Annandale Gateway
+
+Moffat occupies a different corner of Dumfries and Galloway from the Galloway coast towns — it sits at the head of Annandale, just off the A74(M), making it the natural first or last stop for anyone driving into or out of Scotland. For walkers arriving from Grey Mare's Tail or the Moffat Hills, a pub lunch in the town is the obvious conclusion to the day, and the Black Bull Hotel delivers it well.
+
+### The Black Bull Hotel
+
+The Black Bull is a 16th-century coaching inn on the High Street — one of the most atmospheric pubs in the region, with low-beamed ceilings, stone floors, and open fires that feel entirely genuine rather than decorative. The bar is dog-friendly throughout, water bowls are available on request, and the staff are well-practised at welcoming walkers and dogs arriving directly from the hills.
+
+Food leans on Galloway's excellent larder: local beef, hill lamb, game in season, and honest cooking that makes good use of what the surrounding farms produce. This is hearty, satisfying pub cooking — exactly right after a morning on the Moffat Hills or the path up to Grey Mare's Tail.
+
+**Practical details:**
+- Address: Churchgate, Moffat, DG10 9EG
+- Dogs: Welcome in the bar
+- Food: Lunch and dinner (check seasonal hours)
+- Water bowls: Yes on request
+- Best for: Post-walk lunch, A74 stop, hill-walking base
+- [Full Black Bull Hotel listing on Dog Friendly DG](/listings/black-bull-hotel-moffat)
+
+---
+
 ## Newton Stewart and the Galloway Hills
 
 Newton Stewart, the main market town for the western Galloway Hills, is a useful base for exploring the Galloway Forest Park and the walking country around Glen Trool. The town has a handful of dog-friendly pubs and cafes that make good pit-stops before or after a day in the hills.
@@ -237,6 +257,7 @@ This means that even a modest pub in this part of the world often serves better 
 | The Globe Inn | Dumfries | History, Burns heritage |
 | The Galloway Arms | Castle Douglas | Food town dining, Loch Ken base |
 | The Crown Hotel | Portpatrick | Harbour views, seafood |
+| The Black Bull Hotel | Moffat | Post-walk pub, A74 stop, historic atmosphere |
 | The Creebridge House | Newton Stewart | Country house, post-hills |
 | Cream o' Galloway | Gatehouse of Fleet | Families, ice cream, cafe |
 
