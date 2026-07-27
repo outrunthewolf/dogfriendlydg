@@ -162,7 +162,7 @@ Dogs are welcome in the bar and in the grounds, and the setting makes it one of 
 
 ---
 
-## 9. The Steam Packet Inn, Isle of Whithorn
+## 9. [The Steam Packet Inn, Isle of Whithorn](/listings/steam-packet-inn-isle-of-whithorn/)
 
 **The vibe:** Remote, atmospheric harbourside inn at the end of the Machars peninsula — one of the most tucked-away pubs in Dumfries and Galloway, and all the better for it. The Isle of Whithorn is a tiny fishing village with a dramatic harbour and the ruins of St Ninian's Chapel nearby, and the Steam Packet has been serving the community (and visiting walkers and sailors) for generations.
 
@@ -177,6 +177,8 @@ Dogs are welcome in the bar, and the combination of the remote location, the har
 **Best walk to combine:** The coastal path to Burrow Head and St Ninian's Cave is an outstanding 5-mile circular walk from the village, entirely suitable for dogs.
 
 **Dogs allowed inside:** Yes, in the bar.
+
+**[Full Steam Packet Inn listing on Dog Friendly DG](/listings/steam-packet-inn-isle-of-whithorn/)**
 
 ---
 
