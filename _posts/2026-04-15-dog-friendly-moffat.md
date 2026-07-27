@@ -17,7 +17,7 @@ The **Annandale Way** is a 55-mile long-distance route that begins in Moffat. Th
 
 ## Dog-Friendly Pubs and Cafes in Moffat
 
-**The Black Bull Hotel** on the High Street is Moffat's most atmospheric option — a 16th-century coaching inn with low-beamed ceilings and open fires in winter. The bar is dog-friendly and serves good food; it's a natural first stop after coming off the hills. The building itself is worth a look regardless.
+[**The Black Bull Hotel**](/listings/black-bull-hotel-moffat/) on the High Street is Moffat's most atmospheric option — a 16th-century coaching inn with low-beamed ceilings and open fires in winter. The bar is dog-friendly and serves good food; it's a natural first stop after coming off the hills. The building itself is worth a look regardless.
 
 **Moffat House Hotel**, a fine Georgian property at the top of the High Street, has a bar open to non-residents and pleasant grounds. It tends to be a relaxed, unhurried place — well-suited to arriving with muddy dogs after a hill day.
 
