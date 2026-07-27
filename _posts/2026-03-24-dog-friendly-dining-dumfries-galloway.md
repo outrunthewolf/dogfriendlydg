@@ -90,7 +90,7 @@ Castle Douglas has the official designation of Scotland's Food Town, a title it 
 
 ### The Galloway Arms
 
-The Galloway Arms sits at the heart of Castle Douglas and is the most dog-friendly of the town's pubs — a solid, food-focused pub with a genuine welcome for four-legged guests. It is a particularly good base for dogs and owners exploring the Ken-Dee area, with Loch Ken, the RSPB Mersehead nature reserve, and the Galloway Forest all within easy reach.
+[The Galloway Arms](/listings/galloway-arms-castle-douglas/) sits at the heart of Castle Douglas and is the most dog-friendly of the town's pubs — a solid, food-focused pub with a genuine welcome for four-legged guests. It is a particularly good base for dogs and owners exploring the Ken-Dee area, with Loch Ken, the RSPB Mersehead nature reserve, and the Galloway Forest all within easy reach.
 
 Food is a priority here: the pub takes full advantage of its location in Scotland's Food Town, with a menu featuring local beef, fresh fish, and seasonal produce. There is outdoor seating for warmer days, which dogs can enjoy alongside their owners.
 
@@ -124,6 +124,7 @@ Dogs are welcome in the bar area, and the staff are friendly and relaxed about i
 - Food: Lunch and dinner
 - Water bowls: Yes on request
 - Best for: History, atmosphere, Burns heritage
+- [Full Globe Inn listing on Dog Friendly DG](/listings/the-globe-inn-dumfries)
 
 ---
 
