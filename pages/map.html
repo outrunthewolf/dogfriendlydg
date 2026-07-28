@@ -25,158 +25,11 @@ permalink: /map/
     margin-bottom: 0;
   }
 
-  /* Filter bar */
-  .map-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    justify-content: center;
-    padding: 1rem 1rem 0.5rem;
-    max-width: 860px;
-    margin: 0 auto;
-  }
-  .filter-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    padding: 0.4rem 0.9rem;
-    border: 2px solid var(--border);
-    border-radius: 99px;
-    background: var(--white);
-    color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.82rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.15s;
-    text-decoration: none;
-  }
-  .filter-btn:hover,
-  .filter-btn.active {
-    background: var(--green-mid);
-    border-color: var(--green-mid);
-    color: var(--white);
-  }
-  .filter-btn .filter-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  .dot-all         { background: var(--green-mid); }
-  .dot-walk        { background: #3a7bd5; }
-  .dot-beach       { background: #00b4d8; }
-  .dot-pub-cafe    { background: #e07b39; }
-  .dot-accom       { background: #9b59b6; }
-  .dot-attraction  { background: #e74c3c; }
-  .dot-vet-groomer { background: #27ae60; }
-
-  /* Map container */
-  .map-container {
-    max-width: 1100px;
-    margin: 1rem auto 2rem;
-    padding: 0 1rem;
-  }
-  #dg-map {
-    width: 100%;
-    height: 580px;
-    border-radius: var(--radius);
-    border: 2px solid var(--border);
-    box-shadow: var(--shadow);
-    background: #e8f0e8;
-  }
-
-  /* Leaflet popup customisation */
-  .leaflet-popup-content-wrapper {
-    border-radius: 8px !important;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15) !important;
-  }
-  .map-popup h3 {
-    font-size: 0.95rem;
-    color: var(--green-dark);
-    margin: 0 0 0.25rem;
-  }
-  .map-popup .popup-category {
-    font-size: 0.75rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--text-light);
-    margin-bottom: 0.4rem;
-  }
-  .map-popup p {
-    font-size: 0.85rem;
-    color: var(--text);
-    margin: 0 0 0.5rem;
-    line-height: 1.5;
-  }
-  .map-popup a {
-    font-size: 0.82rem;
-    color: var(--green-mid);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .map-popup a:hover { text-decoration: underline; }
-
-  /* Listing panel below map */
-  .map-listing-strip {
-    max-width: 1100px;
-    margin: 0 auto 3rem;
-    padding: 0 1rem;
-  }
-  .map-listing-strip h2 {
-    font-size: 1.1rem;
-    color: var(--green-dark);
-    margin-bottom: 1rem;
-  }
-  .map-listing-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 1rem;
-  }
-  .map-listing-card {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1rem 1.1rem;
-    box-shadow: var(--shadow);
-    transition: transform 0.12s;
-  }
-  .map-listing-card:hover {
-    transform: translateY(-2px);
-  }
-  .map-listing-card .card-category {
-    font-size: 0.72rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--text-light);
-    margin-bottom: 0.3rem;
-  }
-  .map-listing-card h3 {
-    font-size: 0.95rem;
-    color: var(--green-dark);
-    margin: 0 0 0.3rem;
-    line-height: 1.3;
-  }
-  .map-listing-card p {
-    font-size: 0.82rem;
-    color: var(--text-light);
-    margin: 0 0 0.5rem;
-    line-height: 1.45;
-  }
-  .map-listing-card a {
-    font-size: 0.82rem;
-    color: var(--green-mid);
-    text-decoration: none;
-    font-weight: 600;
-  }
-
   /* CTA */
   .map-cta {
     text-align: center;
     max-width: 600px;
-    margin: 0 auto 3rem;
+    margin: 2rem auto 3rem;
     padding: 2rem 1rem;
     background: var(--sand);
     border-radius: var(--radius);
@@ -194,13 +47,9 @@ permalink: /map/
   }
 
   @media (max-width: 640px) {
-    #dg-map { height: 400px; }
     .map-hero h1 { font-size: 1.4rem; }
   }
 </style>
-
-<!-- Leaflet CSS -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
 <!-- Hero -->
 <div class="map-hero">
@@ -208,43 +57,7 @@ permalink: /map/
   <p>Every listing on this map welcomes dogs. Filter by category, click any pin for details, and follow the link to the full listing page.</p>
 </div>
 
-<!-- Filters -->
-<div class="map-filters">
-  <button class="filter-btn active" data-filter="all">
-    <span class="filter-dot dot-all"></span> All Places
-  </button>
-  <button class="filter-btn" data-filter="walk">
-    <span class="filter-dot dot-walk"></span> Walks
-  </button>
-  <button class="filter-btn" data-filter="beach">
-    <span class="filter-dot dot-beach"></span> Beaches
-  </button>
-  <button class="filter-btn" data-filter="pub-cafe">
-    <span class="filter-dot dot-pub-cafe"></span> Pubs &amp; Cafes
-  </button>
-  <button class="filter-btn" data-filter="accommodation">
-    <span class="filter-dot dot-accom"></span> Accommodation
-  </button>
-  <button class="filter-btn" data-filter="attraction">
-    <span class="filter-dot dot-attraction"></span> Attractions
-  </button>
-  <button class="filter-btn" data-filter="vet-groomer">
-    <span class="filter-dot dot-vet-groomer"></span> Vets &amp; Groomers
-  </button>
-</div>
-
-<!-- Map -->
-<div class="map-container">
-  <div id="dg-map"></div>
-</div>
-
-<!-- Featured listings strip -->
-<div class="map-listing-strip">
-  <h2>Featured Dog-Friendly Places</h2>
-  <div class="map-listing-grid" id="map-listing-grid">
-    <!-- Populated by JS based on active filter -->
-  </div>
-</div>
+{% include dg-map.html height="580px" show_filters=true show_listings=true %}
 
 <!-- CTA -->
 <div class="map-cta">
@@ -252,108 +65,3 @@ permalink: /map/
   <p>If you run a dog-friendly pub, caf&eacute;, holiday cottage, or attraction in Dumfries &amp; Galloway, a permanent listing puts you in front of dog owners planning their visit. One-off payment, listed for life.</p>
   <a href="/premium-listings/" class="btn btn-primary">See Listing Options</a>
 </div>
-
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-
-<script>
-(function() {
-  // ---------------------------------------------------------------
-  // Place data — generated from Jekyll listings collection
-  // ---------------------------------------------------------------
-  var places = [
-    {% for listing in site.listings %}{% if listing.lat and listing.lng %}
-    { name: {{ listing.name | jsonify }}, category: {{ listing.category | jsonify }}, lat: {{ listing.lat }}, lng: {{ listing.lng }}, summary: {{ listing.excerpt | jsonify }}, url: {{ listing.url | jsonify }} }{% unless forloop.last %},{% endunless %}
-    {% endif %}{% endfor %}
-  ];
-
-  // Marker colours per category
-  var colours = {
-    'walk':          '#3a7bd5',
-    'beach':         '#00b4d8',
-    'pub-cafe':      '#e07b39',
-    'accommodation': '#9b59b6',
-    'attraction':    '#e74c3c',
-    'vet-groomer':   '#27ae60'
-  };
-
-  function makeIcon(category) {
-    var colour = colours[category] || '#4a7c2f';
-    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="34" viewBox="0 0 26 34">'
-      + '<path d="M13 0C5.82 0 0 5.82 0 13c0 9.75 13 21 13 21S26 22.75 26 13C26 5.82 20.18 0 13 0z" fill="' + colour + '" stroke="white" stroke-width="2"/>'
-      + '<circle cx="13" cy="13" r="5" fill="white" opacity="0.9"/>'
-      + '</svg>';
-    return L.divIcon({
-      className: '',
-      html: svg,
-      iconSize: [26, 34],
-      iconAnchor: [13, 34],
-      popupAnchor: [0, -34]
-    });
-  }
-
-  // Init map centred on D&G
-  var map = L.map('dg-map', {
-    center: [54.98, -4.00],
-    zoom: 9,
-    scrollWheelZoom: false
-  });
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18
-  }).addTo(map);
-
-  // Build markers
-  var markers = [];
-  places.forEach(function(p) {
-    var popupHtml = '<div class="map-popup">'
-      + '<div class="popup-category">' + p.category.replace('-',' ') + '</div>'
-      + '<h3>' + p.name + '</h3>'
-      + '<p>' + p.summary + '</p>'
-      + '<a href="' + p.url + '">View full listing &rarr;</a>'
-      + '</div>';
-    var marker = L.marker([p.lat, p.lng], { icon: makeIcon(p.category) })
-      .bindPopup(popupHtml, { maxWidth: 260 });
-    marker._placeData = p;
-    markers.push(marker);
-    marker.addTo(map);
-  });
-
-  // Filter buttons
-  var activeFilter = 'all';
-  document.querySelectorAll('.filter-btn').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
-      btn.classList.add('active');
-      activeFilter = btn.getAttribute('data-filter');
-      markers.forEach(function(m) {
-        if (activeFilter === 'all' || m._placeData.category === activeFilter) {
-          m.addTo(map);
-        } else {
-          map.removeLayer(m);
-        }
-      });
-      renderCards();
-    });
-  });
-
-  // Listing cards below map
-  function renderCards() {
-    var grid = document.getElementById('map-listing-grid');
-    var filtered = activeFilter === 'all' ? places : places.filter(function(p) { return p.category === activeFilter; });
-    // Show max 8
-    var shown = filtered.slice(0, 8);
-    grid.innerHTML = shown.map(function(p) {
-      return '<div class="map-listing-card">'
-        + '<div class="card-category">' + p.category.replace('-',' ') + '</div>'
-        + '<h3>' + p.name + '</h3>'
-        + '<p>' + p.summary + '</p>'
-        + '<a href="' + p.url + '">View listing &rarr;</a>'
-        + '</div>';
-    }).join('');
-  }
-  renderCards();
-
-})();
-</script>

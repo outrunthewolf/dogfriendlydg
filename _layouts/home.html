@@ -120,6 +120,10 @@ layout: default
   .post-card-title a:hover { color: var(--green-mid); text-decoration: none; }
   .post-card-excerpt { font-family: Arial, Helvetica, sans-serif; font-size: 0.88rem; color: var(--text-light); flex: 1; }
   .post-card-read-more { font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--green-mid); margin-top: 0.25rem; }
+
+  /* ── HOME MAP ── */
+  .home-map-section { margin-bottom: 3.5rem; }
+  .home-map-footer { text-align: center; margin-top: 1rem; }
 </style>
 
 {{ content }}
@@ -134,6 +138,18 @@ layout: default
       <a href="/walks/" class="btn btn-hero-outline">Explore Walks</a>
       <a href="/accommodation/" class="btn btn-hero-outline">Find Accommodation</a>
     </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="home-map-section">
+  <h2 class="section-heading">
+    Explore the Map
+    <a href="/map/">Full map &rarr;</a>
+  </h2>
+  {% include dg-map.html height="380px" show_filters=false show_listings=false %}
+  <div class="home-map-footer">
+    <a href="/map/" class="btn btn-primary">Browse All Places on the Map</a>
   </div>
 </section>
 
