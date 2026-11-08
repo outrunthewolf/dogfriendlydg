@@ -52,6 +52,10 @@ exclude:
   - README.md
   - node_modules
   - vendor
+  - Gemfile.txt
+  - docs
+  - outreach
+  - scripts
 
 # Timezone
 timezone: Europe/London
