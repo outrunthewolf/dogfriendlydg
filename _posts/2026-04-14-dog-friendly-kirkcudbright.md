@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Dog Friendly Kirkcudbright: Your Complete Guide to Scotland's Artists' Town"
+title: "Dog Friendly Kirkcudbright: Walks, Pubs and Where to Stay"
 date: 2026-04-14
 categories: [guides]
 tags: [kirkcudbright, dog-friendly, galloway, solway-coast, town-guide, dumfries-and-galloway]
 excerpt: "Kirkcudbright is one of Dumfries and Galloway's most distinctive towns — handsome harbour, a castle in the centre, and some of the best coastal walking in the Stewartry. Here's everything you need to know before visiting with your dog."
-description: "Your complete guide to visiting Kirkcudbright with a dog — walks along the Dee, the harbour and estuary, dog-friendly pubs, attractions and practical tips for this beautiful Galloway artists' town."
+description: "Your complete guide to visiting Kirkcudbright with a dog — walks along the Dee, the harbour and estuary, dog-friendly pubs, where to stay with your dog, attractions and practical tips for this beautiful Galloway artists' town."
 author: "Dog Friendly DG"
 ---
 
@@ -34,6 +34,12 @@ For a longer half-day outing, the riverside path along the Dee heads north from 
 The [Selkirk Arms](/listings/selkirk-arms-kirkcudbright/) is the anchor of dog-friendly hospitality in Kirkcudbright. Robert Burns stayed here and is said to have composed the Selkirk Grace at this inn during his Galloway tour. Today it's a well-kept coaching hotel with a bar that actively welcomes dogs, water bowls available, and good food served throughout the day. It's a pub and hotel combined, making it worth considering as a base if you want to stay in the town.
 
 Kirkcudbright has a good spread of independent cafes along the high street; while dog policies vary, the outdoor seating at the harbourside spots is generally dog-friendly — it's worth asking when you arrive.
+
+## Dog-Friendly Accommodation in and Around Kirkcudbright
+
+For a stay right in town, the [Selkirk Arms](/listings/selkirk-arms-kirkcudbright/) on the High Street welcomes dogs in its bar and in dog-friendly bedrooms. Ask about the dog policy when you book.
+
+If you would rather have a self-catering cottage or lodge, the closest properties we list are in and around Castle Douglas, a short drive north: [Killyon Farm Cottages](/listings/killyon-farm-cottages-castle-douglas/) at Gelston (up to two dogs per cottage, private enclosed garden area) and [Carlinwark Loch Lodges](/listings/carlinwark-loch-lodges-castle-douglas/), where you can step straight onto the loch path with your dog. Further along the coast, [The Cally Hotel](/listings/cally-hotel-gatehouse-of-fleet/) at Gatehouse of Fleet takes dogs in selected ground-floor rooms; our [Gatehouse of Fleet guide](/guides/dog-friendly-gatehouse-of-fleet/) covers more of the area. Our full [dog-friendly accommodation list](/accommodation/) shows every property across Dumfries and Galloway, with dog charges and limits where known.
 
 ## Dog-Friendly Attractions
 
