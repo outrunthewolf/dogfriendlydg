@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Dog Friendly Gatehouse of Fleet: Your Complete Guide"
+title: "Dog Friendly Gatehouse of Fleet: Where to Stay, Eat and Walk"
 date: 2026-06-10
 categories: [guides]
 tags: [gatehouse-of-fleet, dog-friendly, dog-friendly-dining, dumfries-and-galloway, dog-friendly-pubs, town-guide, galloway, cream-o-galloway, murray-arms]
 excerpt: "Gatehouse of Fleet is one of Galloway's most rewarding small towns for dog owners — handsome Georgian streets, three excellent dog-friendly pubs and cafes, two nearby beaches, and a ruined castle all within a few miles. Here is everything you need."
-description: "Your complete guide to visiting Gatehouse of Fleet with a dog — dog-friendly pubs and dining at the Murray Arms and Masonic Arms, Cream o' Galloway, walks at Cardoness Castle, beaches at Sandgreen and Mossyard, and where to stay."
+description: "Your complete guide to visiting Gatehouse of Fleet with a dog — dog-friendly pubs and dining at the Murray Arms and Masonic Arms, Cream o' Galloway, walks at Cardoness Castle, beaches at Sandgreen and Mossyard, and where to stay, including dog-friendly hotels, caravan parks and self-catering cottages nearby."
 author: "Dog Friendly DG"
 ---
 
@@ -47,7 +47,19 @@ Two beaches sit within easy reach of Gatehouse, both excellent for dogs. [Sandgr
 
 ## Dog-Friendly Accommodation in Gatehouse of Fleet
 
-[The Cally Hotel](/listings/cally-hotel-gatehouse-of-fleet/) is a Georgian country house hotel set in 150 acres of grounds on the edge of Gatehouse — an outstanding base for a longer break, with extensive private grounds for exercising dogs and a formal but genuinely welcoming atmosphere. For a more relaxed pitch, [Drumcroy Caravan Park](/listings/drumcroy-caravan-park-gatehouse/) on the edge of the town accepts dogs and is well-placed for exploring the surrounding area.
+Gatehouse is a popular base for a dog-friendly holiday, and the choice runs from country house hotels to caravan parks and self-catering cottages in the surrounding countryside. Always check the maximum number of dogs, any nightly or per-stay dog charge, and which rooms dogs are allowed in before you book.
+
+### Hotels and rooms in Gatehouse
+
+[The Cally Hotel](/listings/cally-hotel-gatehouse-of-fleet/) is a Georgian country house hotel in its own wooded estate on the edge of Gatehouse. Dogs are welcome in selected ground-floor rooms (the listing notes a charge of £15 per dog per night, maximum two dogs per room), and they can walk the estate, though they are not permitted in the restaurant or pool area. The [Murray Arms Hotel](/listings/the-murray-arms-gatehouse/) on the High Street also takes dogs in bedrooms, which puts you within a few steps of the town's pubs and shops.
+
+### Caravan park
+
+[Drumcroy Caravan Park](/listings/drumcroy-caravan-park-gatehouse/) on the edge of the town accepts dogs and is well placed for exploring the surrounding area on a more relaxed, budget-friendly pitch.
+
+### Holiday cottages and self-catering nearby
+
+If you are searching for a dog-friendly cottage or holiday let near Gatehouse of Fleet, the nearest self-catering options we list are around Castle Douglas, about 20 minutes' drive away: [Killyon Farm Cottages](/listings/killyon-farm-cottages-castle-douglas/) (private garden area, dogs on leads around farm animals) and [Carlinwark Loch Lodges](/listings/carlinwark-loch-lodges-castle-douglas/) (waterside lodges on the loch path). To the west, [Castle Cary House B&B](/listings/castle-cary-house-bb-creetown/) at Creetown offers a large private garden and welcomes dogs in all rooms. Browse every property on our [dog-friendly accommodation page](/accommodation/), and see our [Kirkcudbright guide](/guides/dog-friendly-kirkcudbright/) for stays on the other side of the Fleet.
 
 ---
 
