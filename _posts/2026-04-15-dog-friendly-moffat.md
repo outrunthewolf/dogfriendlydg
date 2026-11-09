@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Dog Friendly Moffat: Your Complete Guide to Scotland's Spa Town"
+title: "Dog Friendly Moffat: Pubs, Hotels, Dining and Walks"
 date: 2026-04-15
+description: "Dog-friendly Moffat: pubs and bars, places to eat, dog-friendly hotels and walks including Grey Mare's Tail. Where to stay, eat and drink with your dog in this Scottish spa town."
 excerpt: "Moffat is one of Dumfries and Galloway's most rewarding dog-friendly destinations — dramatic hill walks, a spectacular waterfall, and welcoming pubs on a handsome High Street. Here's everything you need to know before visiting with your dog."
 ---
 
@@ -15,15 +16,19 @@ For something accessible directly from the town, the **Moffat Hills** offer open
 
 The **Annandale Way** is a 55-mile long-distance route that begins in Moffat. The first few miles along the River Annan are gentle and well-suited to most dogs — an easy out-and-back if you want a taste of the route without committing to the whole thing.
 
-## Dog-Friendly Pubs and Cafes in Moffat
+## Dog-Friendly Pubs, Bars and Dining in Moffat
 
-[**The Black Bull Hotel**](/listings/black-bull-hotel-moffat/) on the High Street is Moffat's most atmospheric option — a 16th-century coaching inn with low-beamed ceilings and open fires in winter. The bar is dog-friendly and serves good food; it's a natural first stop after coming off the hills. The building itself is worth a look regardless.
+If you are looking for a dog-friendly pub or somewhere to eat in Moffat, these are the places we know about.
 
-**Moffat House Hotel**, a fine Georgian property at the top of the High Street, has a bar open to non-residents and pleasant grounds. It tends to be a relaxed, unhurried place — well-suited to arriving with muddy dogs after a hill day.
+[**The Black Bull Hotel**](/listings/black-bull-hotel-moffat/) at Churchgate is Moffat's most atmospheric option: a 16th-century coaching inn with low-beamed ceilings and open fires in winter. Dogs are welcome in the bar throughout opening hours, water bowls are available, and it serves real ales and food, so it works for a pint or a meal after a day on the hills.
 
-## Dog-Friendly Accommodation in Moffat
+**Moffat House Hotel**, a fine Georgian property at the top of the High Street, has a bar open to non-residents and pleasant grounds. It tends to be a relaxed, unhurried place, well suited to arriving with muddy dogs after a hill day. Check with the hotel about dogs in the dining areas before you go.
 
-Moffat's reputation as a walking destination means accommodation options here are generally set up for dogs. **Moffat House Hotel** offers dog-friendly rooms in a handsome Georgian setting with gardens. **The Star Hotel**, a narrow townhouse on the High Street, holds the Guinness World Record as the world's narrowest hotel — it's a curiosity worth knowing about, and well-behaved dogs are welcome.
+For more places to eat and drink across the region, see our [dog-friendly dining guide](/guides/food-and-drink/dog-friendly-dining-dumfries-galloway/) and our [pubs and cafes directory](/pubs-cafes/).
+
+## Dog-Friendly Hotels and Accommodation in Moffat
+
+Moffat's reputation as a walking destination means accommodation options here are generally set up for dogs. The [Black Bull Hotel](/listings/black-bull-hotel-moffat/) also has rooms where dogs are welcome (check when booking). **Moffat House Hotel** offers dog-friendly rooms in a handsome Georgian setting with gardens. **The Star Hotel**, a narrow townhouse on the High Street, holds the Guinness World Record as the world's narrowest hotel — it's a curiosity worth knowing about, and well-behaved dogs are welcome.
 
 Several smaller guest houses and B&Bs in Moffat also accept dogs; it's worth calling ahead to check availability and any small pet supplement.
 
@@ -35,3 +40,5 @@ Several smaller guest houses and B&Bs in Moffat also accept dogs; it's worth cal
 - **Seasonal note:** Moffat is quieter and more peaceful in spring and autumn — good shoulder-season timing for a visit with dogs.
 
 Moffat doesn't shout about itself the way some places do, which is part of its appeal. The walks are excellent, the town is attractive, and the surrounding countryside — the deep-cut valleys, the open moorland, the waterfalls — is some of the most dramatic in D&G. If you haven't been with your dog, it's overdue.
+
+Browse all [dog-friendly places to stay in Dumfries and Galloway](/accommodation/) or our [map of dog-friendly places](/map/).
