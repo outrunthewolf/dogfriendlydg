@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dog-Friendly Dining in Dumfries and Galloway"
+title: "Places to Eat with Your Dog in Dumfries and Galloway: Dog-Friendly Dining Guide"
 date: 2026-03-24
 categories: [guides, food-and-drink]
 tags: [dog friendly dining, dumfries and galloway, dog friendly restaurants, dog friendly pubs, places to eat with dogs, galloway food, scotland]
