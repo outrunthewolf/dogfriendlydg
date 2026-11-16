@@ -64,4 +64,4 @@ Dumfries makes an excellent base for day trips across the eastern half of Dumfri
 - **Seasonal note:** Dumfries is a year-round destination and does not have the seasonal closure issues that affect some coastal spots. The riverside walk is pleasant in any weather.
 - **Food shopping:** For stocking up before a day in the countryside, Dumfries has a full range of supermarkets and independent shops on and around the High Street.
 
-For the full picture of dog-friendly dining and drinking across Dumfries and Galloway — including more pubs where dogs are welcome — see our [complete dining guide](/posts/dog-friendly-dining-dumfries-galloway) and [dog-friendly bars guide](/posts/dog-friendly-bars-dumfries-galloway).
+For the full picture of dog-friendly dining and drinking across Dumfries and Galloway — including more pubs where dogs are welcome — see our [complete dining guide](/guides/food-and-drink/dog-friendly-dining-dumfries-galloway/) and [dog-friendly bars guide](/guides/food-and-drink/dog-friendly-bars-dumfries-galloway/).

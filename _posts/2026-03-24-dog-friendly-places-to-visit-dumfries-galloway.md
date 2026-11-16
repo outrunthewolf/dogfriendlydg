@@ -92,7 +92,7 @@ The Dock Park on the Nith is a large open green space with riverside walking tha
 
 This pair of small villages on the Solway Estuary represents some of the finest low-key coastal scenery in Scotland. Rockcliffe sits on a rocky bay surrounded by National Trust for Scotland land; Kippford is a sailing village a mile down the road, connected by the Jubilee Path - a beautiful clifftop walk with views across the estuary to Criffel.
 
-Both villages are exceptionally dog-friendly. The beach at Rockcliffe has seasonal restrictions on part of the sand (1 May to 30 September), but the clifftop and shore paths are open year-round. The Anchor Hotel in Kippford welcomes dogs in the bar. See our [Solway Coast beaches guide](/posts/dog-friendly-beaches-solway-coast) for full detail.
+Both villages are exceptionally dog-friendly. The beach at Rockcliffe has seasonal restrictions on part of the sand (1 May to 30 September), but the clifftop and shore paths are open year-round. The Anchor Hotel in Kippford welcomes dogs in the bar. See our [Solway Coast beaches guide](/beaches/solway-coast/dog-friendly-beaches-solway-coast/) for full detail.
 
 **Visitor Info:**
 - Free access
@@ -131,7 +131,7 @@ Key visitor centres and entry points:
 - **Raiders Road Forest Drive** - 10-mile forest drive, red kites, otters on the Black Water of Dee
 - **Kirroughtree Visitor Centre** - mountain biking centre, walking trails
 
-See our [full guide to dog-friendly walks in Galloway Forest Park](/posts/best-dog-friendly-walks-galloway-forest) for detailed route information.
+See our [full guide to dog-friendly walks in Galloway Forest Park](/walks/best-dog-friendly-walks-galloway-forest/) for detailed route information.
 
 **Visitor Info:**
 - Entry: Free. Parking from GBP3.
@@ -302,7 +302,7 @@ Dogs are welcome on all the hill paths and the village is very relaxed about can
 
 ## Where to Stay Near These Attractions
 
-Planning a longer trip? See our [guide to dog-friendly hotels in Dumfries and Galloway](/posts/best-dog-friendly-hotels-dumfries-galloway) for accommodation recommendations across the region, with Booking.com and Airbnb links for each area.
+Planning a longer trip? See our [guide to dog-friendly hotels in Dumfries and Galloway](/accommodation/guides/best-dog-friendly-hotels-dumfries-galloway/) for accommodation recommendations across the region, with Booking.com and Airbnb links for each area.
 
 - [Search dog-friendly stays on Booking.com](https://www.booking.com/searchresults.html?ss=Dumfries+and+Galloway&nflt=hotelfacility%3D4&aid=304199&label=dogfriendlydg)
 - [Search dog-friendly stays on Airbnb](https://www.airbnb.co.uk/s/Dumfries-and-Galloway/homes?amenities%5B%5D=12&affiliate_id=DFDG2026)
@@ -311,10 +311,10 @@ Planning a longer trip? See our [guide to dog-friendly hotels in Dumfries and Ga
 
 ## Related Guides
 
-- [Best Dog-Friendly Hotels in Dumfries and Galloway](/posts/best-dog-friendly-hotels-dumfries-galloway)
-- [Best Dog-Friendly Walks in Galloway Forest Park](/posts/best-dog-friendly-walks-galloway-forest)
-- [Dog-Friendly Beaches on the Solway Coast](/posts/dog-friendly-beaches-solway-coast)
-- [Where to Eat with Your Dog in D&G](/posts/best-dog-friendly-pubs-restaurants-dumfries-galloway)
-- [A Dog-Friendly Weekend in Galloway](/posts/dog-friendly-galloway-weekend-itinerary)
+- [Best Dog-Friendly Hotels in Dumfries and Galloway](/accommodation/guides/best-dog-friendly-hotels-dumfries-galloway/)
+- [Best Dog-Friendly Walks in Galloway Forest Park](/walks/best-dog-friendly-walks-galloway-forest/)
+- [Dog-Friendly Beaches on the Solway Coast](/beaches/solway-coast/dog-friendly-beaches-solway-coast/)
+- [Where to Eat with Your Dog in D&G](/pubs/guides/best-dog-friendly-pubs-restaurants-dumfries-galloway/)
+- [A Dog-Friendly Weekend in Galloway](/guides/dog-friendly-galloway-weekend-itinerary/)
 
 *Is your attraction or venue dog-friendly and not listed here? We would love to feature you. Get in touch to find out about our premium listing options.*
