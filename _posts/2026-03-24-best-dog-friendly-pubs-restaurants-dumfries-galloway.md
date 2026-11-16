@@ -52,7 +52,7 @@ The food is honest pub fare done well: pies, burgers, fish and chips, good soup.
 - Outside seating: Beer garden (seasonal)
 - Dog facilities: Water bowls, welcome throughout bar
 - Best for: Pre or post-walk lunch, town centre base
-- Also offers: Dog-friendly accommodation (see our [hotels guide](/posts/best-dog-friendly-hotels-dumfries-galloway))
+- Also offers: Dog-friendly accommodation (see our [hotels guide](/accommodation/guides/best-dog-friendly-hotels-dumfries-galloway/))
 
 ---
 
@@ -361,7 +361,7 @@ Food is simple and filling, the beer is cold, and the welcome is genuine. On a w
 
 ## Where to Stay After a Good Meal
 
-Several of the pubs and inns listed here also offer dog-friendly accommodation. For a full guide to where to stay across the region, see our [dog-friendly hotels guide](/posts/best-dog-friendly-hotels-dumfries-galloway).
+Several of the pubs and inns listed here also offer dog-friendly accommodation. For a full guide to where to stay across the region, see our [dog-friendly hotels guide](/accommodation/guides/best-dog-friendly-hotels-dumfries-galloway/).
 
 - [Search dog-friendly accommodation on Booking.com](https://www.booking.com/searchresults.html?ss=Dumfries+and+Galloway&nflt=hotelfacility%3D4&aid=304199&label=dogfriendlydg)
 - [Search dog-friendly stays on Airbnb](https://www.airbnb.co.uk/s/Dumfries-and-Galloway/homes?amenities%5B%5D=12&affiliate_id=DFDG2026)
@@ -370,11 +370,11 @@ Several of the pubs and inns listed here also offer dog-friendly accommodation. 
 
 ## Related Guides
 
-- [Best Dog-Friendly Hotels in Dumfries and Galloway](/posts/best-dog-friendly-hotels-dumfries-galloway)
-- [Dog-Friendly Places to Visit in Dumfries and Galloway](/posts/dog-friendly-places-to-visit-dumfries-galloway)
-- [Best Dog-Friendly Walks in Galloway Forest Park](/posts/best-dog-friendly-walks-galloway-forest)
-- [Dog-Friendly Beaches on the Solway Coast](/posts/dog-friendly-beaches-solway-coast)
-- [A Dog-Friendly Weekend in Galloway](/posts/dog-friendly-galloway-weekend-itinerary)
+- [Best Dog-Friendly Hotels in Dumfries and Galloway](/accommodation/guides/best-dog-friendly-hotels-dumfries-galloway/)
+- [Dog-Friendly Places to Visit in Dumfries and Galloway](/guides/attractions/dog-friendly-places-to-visit-dumfries-galloway/)
+- [Best Dog-Friendly Walks in Galloway Forest Park](/walks/best-dog-friendly-walks-galloway-forest/)
+- [Dog-Friendly Beaches on the Solway Coast](/beaches/solway-coast/dog-friendly-beaches-solway-coast/)
+- [A Dog-Friendly Weekend in Galloway](/guides/dog-friendly-galloway-weekend-itinerary/)
 
 ---
 
