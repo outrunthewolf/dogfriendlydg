@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Dog Friendly Moffat: Pubs, Hotels, Dining and Walks"
+title: "Dog Friendly Moffat: Pubs, Bars, Hotels, Dining and Walks"
 date: 2026-04-15
-description: "Dog-friendly Moffat: pubs and bars, places to eat, dog-friendly hotels and walks including Grey Mare's Tail. Where to stay, eat and drink with your dog in this Scottish spa town."
+description: "Dog-friendly Moffat: the best pubs and bars (with the Black Bull's open fires and real ales), places to eat, dog-friendly hotels and walks including Grey Mare's Tail. Where to stay, eat and drink with your dog in this Scottish spa town."
 excerpt: "Moffat is one of Dumfries and Galloway's most rewarding dog-friendly destinations — dramatic hill walks, a spectacular waterfall, and welcoming pubs on a handsome High Street. Here's everything you need to know before visiting with your dog."
 ---
 
@@ -18,7 +18,7 @@ The **Annandale Way** is a 55-mile long-distance route that begins in Moffat. Th
 
 ## Dog-Friendly Pubs, Bars and Dining in Moffat
 
-If you are looking for a dog-friendly pub or somewhere to eat in Moffat, these are the places we know about.
+Looking for the best pub in Moffat to take a dog? Start with the Black Bull: a traditional, historic pub where dogs are welcome in the bar. For a family-friendly meal or a quieter drink, Moffat House Hotel has a bar open to non-residents and pleasant grounds. These are the places we know about.
 
 [**The Black Bull Hotel**](/listings/black-bull-hotel-moffat/) at Churchgate is Moffat's most atmospheric option: a 16th-century coaching inn with low-beamed ceilings and open fires in winter. Dogs are welcome in the bar throughout opening hours, water bowls are available, and it serves real ales and food, so it works for a pint or a meal after a day on the hills.
 

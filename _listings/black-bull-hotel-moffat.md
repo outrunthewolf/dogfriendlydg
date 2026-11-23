@@ -39,6 +39,10 @@ Moffat's position at the head of Annandale makes it one of the best bases in Dum
 
 **The Annandale Way** — a 55-mile long-distance route — begins in Moffat. The first few miles along the River Annan are gentle and well-suited to most dogs, making a good out-and-back option if you want a taste of the route without committing to the full distance.
 
+## More Dog-Friendly Places in Moffat
+
+The Black Bull is one of several dog-friendly pubs, bars and hotels in town. Our [dog-friendly Moffat guide](/dog-friendly-moffat/) covers Moffat's pubs and bars, places to eat, hotels and the best walks, including Grey Mare's Tail.
+
 ## Getting There
 
 Moffat is just off the A74(M) at junction 15, around 55 miles north of Dumfries. It sits at a natural crossroads and makes a good stop on a journey between southern Scotland and the north. The Black Bull is on Churchgate, a short walk from the main car park at the north end of the High Street.
