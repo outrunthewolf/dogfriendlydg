@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dog Friendly Gatehouse of Fleet: Where to Stay, Eat and Walk"
+title: "Dog Friendly Gatehouse of Fleet: Cottages, Hotels, Pubs and Walks"
 date: 2026-06-10
 categories: [guides]
 tags: [gatehouse-of-fleet, dog-friendly, dog-friendly-dining, dumfries-and-galloway, dog-friendly-pubs, town-guide, galloway, cream-o-galloway, murray-arms]
