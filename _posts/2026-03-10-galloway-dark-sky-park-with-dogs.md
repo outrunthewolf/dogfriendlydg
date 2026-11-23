@@ -39,7 +39,7 @@ Nearby: Robert the Bruce's cave is a short walk from the visitor centre — a ca
 
 ## Glentrool — Wild Grandeur After Dark
 
-Glentrool sits within the Dark Sky Park boundary and combines some of the best daytime walking (see our [full guide to Glen Trool](/listings/glen-trool-walk)) with genuine nighttime darkness. The valley is surrounded by hills on three sides, which means minimal horizon light pollution, and the altitude gives you a clearer, wider sky than lower ground.
+Glentrool sits within the Dark Sky Park boundary and combines some of the best daytime walking (see our [full guide to Glen Trool](/listings/glen-trool-walk/)) with genuine nighttime darkness. The valley is surrounded by hills on three sides, which means minimal horizon light pollution, and the altitude gives you a clearer, wider sky than lower ground.
 
 The combination of a full day walk — up to Bruce's Stone and around Loch Trool — followed by an evening in the valley as the stars emerge is one of those experiences that is hard to replicate anywhere else in the UK. Park at the Glentrool car park and simply stay after dark.
 
@@ -47,7 +47,7 @@ The combination of a full day walk — up to Bruce's Stone and around Loch Trool
 
 ## Talnotry and Murray's Monument — One of the Darkest Spots
 
-The area around Murray's Monument and Talnotry, off the A712, is one of the remotest and darkest parts of the park. The [Murray's Monument walk](/listings/murrays-monument-walk) takes you up onto open hillside with panoramic views in every direction — exactly the kind of terrain that, after dark, gives you 360-degree sky visibility.
+The area around Murray's Monument and Talnotry, off the A712, is one of the remotest and darkest parts of the park. The [Murray's Monument walk](/listings/murrays-monument-walk/) takes you up onto open hillside with panoramic views in every direction — exactly the kind of terrain that, after dark, gives you 360-degree sky visibility.
 
 This is one of the locations most recommended by serious astrophotographers visiting the park. For a daytime walk followed by evening stargazing, it is one of the finest combinations in Galloway.
 
@@ -83,7 +83,7 @@ Your dog's soundtrack for the evening will likely include tawny owls, the bark o
 
 ## Where to Stay for a Dark Sky Experience
 
-The [Galloway Sailing Centre lodges on Loch Ken](/listings/galloway-sailing-centre-accommodation) are a good dog-friendly base within easy reach of the park. Several campsites within the forest itself offer pitches close to the darkest zones — the Caldons campsite at Glentrool is one of the best options for a genuine Dark Sky camping experience with your dog.
+The [Galloway Sailing Centre lodges on Loch Ken](/listings/galloway-sailing-centre-accommodation/) are a good dog-friendly base within easy reach of the park. Several campsites within the forest itself offer pitches close to the darkest zones — the Caldons campsite at Glentrool is one of the best options for a genuine Dark Sky camping experience with your dog.
 
 ---
 

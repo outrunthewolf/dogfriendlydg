@@ -21,7 +21,7 @@ Tucked down a lane off the main street in Gatehouse of Fleet, the Masonic Arms i
 
 Dogs are welcome throughout the bar area, and the atmosphere is genuinely relaxed -- no anxious glances from staff, no being ushered into a draughty corner. This is a proper local pub that happens to be excellent, and it is one of the best post-walk pubs in Galloway when combined with a day at Sandgreen Beach or a walk around Cardoness Castle.
 
-[See our full Masonic Arms listing](/listings/the-masonic-arms-gatehouse) for opening hours and contact details.
+[See our full Masonic Arms listing](/listings/the-masonic-arms-gatehouse/) for opening hours and contact details.
 
 ---
 
@@ -31,7 +31,7 @@ A few doors down from the Masonic, the Murray Arms is a traditional Scottish coa
 
 The pub has a dedicated dog bar -- a stone-floored area where wet and muddy dogs are more than welcome after a day on the hills or beaches. The food is good, the beer selection is solid, and the combination of history and genuine welcome makes it one of the standout pubs in the region. The Murray Arms is the kind of place you plan to stay for one drink and leave two hours later.
 
-[Explore our full Murray Arms listing](/listings/the-murray-arms-gatehouse) for more information.
+[Explore our full Murray Arms listing](/listings/the-murray-arms-gatehouse/) for more information.
 
 ---
 

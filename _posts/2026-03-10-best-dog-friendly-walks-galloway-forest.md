@@ -27,7 +27,7 @@ The views from Bruce's Stone are spectacular in any weather, but it is the Water
 
 **Practical notes:** Parking at the Glentrool Village car park is managed by Forestry and Land Scotland and charges apply (typically around £3-4 for a day). The route is well marked. **Important seasonal note:** The hillsides around Glen Trool support active sheep farming. During lambing season (roughly mid-March to mid-May), keep your dog on the lead on all open hillside sections. Signs will be in place, but err on the side of caution.
 
-[Explore our full Glen Trool listing](/listings/glen-trool-walk) for more detail on parking, route maps, and what to expect on the ground.
+[Explore our full Glen Trool listing](/listings/glen-trool-walk/) for more detail on parking, route maps, and what to expect on the ground.
 
 ---
 
@@ -43,7 +43,7 @@ The walk up is straightforward -- around a mile from the car park -- but the ope
 
 This is a great option if you want something shorter than Glen Trool but still with real character and proper hill-walking atmosphere.
 
-[See our full Murray's Monument listing](/listings/murrays-monument-walk) for directions and tips.
+[See our full Murray's Monument listing](/listings/murrays-monument-walk/) for directions and tips.
 
 ---
 
