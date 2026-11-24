@@ -51,9 +51,9 @@ Dogs are welcome throughout the bar. The staff are relaxed and friendly, water i
 
 Dumfries makes an excellent base for day trips across the eastern half of Dumfries and Galloway. Two of the region's most rewarding dog-friendly sites are within a short drive:
 
-**Caerlaverock Castle** (8 miles south) — a perfectly preserved triangular medieval castle with a moat, set in the flat farmland of the Solway plain. Dogs are welcome in the grounds on leads. The adjacent Caerlaverock National Nature Reserve, managed by Scottish Natural Heritage, extends across the Solway saltmarsh and has marked walking trails where dogs are allowed. [See the full Caerlaverock listing »](/listings/caerlaverock-castle)
+**Caerlaverock Castle** (8 miles south) — a perfectly preserved triangular medieval castle with a moat, set in the flat farmland of the Solway plain. Dogs are welcome in the grounds on leads. The adjacent Caerlaverock National Nature Reserve, managed by Scottish Natural Heritage, extends across the Solway saltmarsh and has marked walking trails where dogs are allowed. [See the full Caerlaverock listing »](/listings/caerlaverock-castle/)
 
-**Sweetheart Abbey** (8 miles south, near New Abbey) — the ruins of a 13th-century Cistercian abbey founded in memory of John Balliol by his widow Devorgilla, who carried her husband's embalmed heart with her until her own death. Dogs are welcome in the Historic Environment Scotland grounds on leads. The village of New Abbey itself is pleasant for a short wander. [See the full Sweetheart Abbey listing »](/listings/sweetheart-abbey)
+**Sweetheart Abbey** (8 miles south, near New Abbey) — the ruins of a 13th-century Cistercian abbey founded in memory of John Balliol by his widow Devorgilla, who carried her husband's embalmed heart with her until her own death. Dogs are welcome in the Historic Environment Scotland grounds on leads. The village of New Abbey itself is pleasant for a short wander. [See the full Sweetheart Abbey listing »](/listings/sweetheart-abbey/)
 
 ---
 

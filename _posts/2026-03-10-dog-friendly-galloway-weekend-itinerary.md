@@ -23,7 +23,7 @@ Base yourself at the Galloway Sailing Centre on the shores of Loch Ken. The lodg
 
 Once settled, take a morning walk along the Ken-Dee Marshes RSPB reserve, which runs along the western shore of Loch Ken. This is a lovely, relatively flat walk through wetland and woodland with excellent birdlife -- red kites are a near-certainty overhead, which is a genuinely thrilling sight. Dogs should be kept on leads through the reserve sections, but there is plenty of open ground for off-lead time on the approach walks.
 
-[See our Galloway Sailing Centre listing](/listings/galloway-sailing-centre-accommodation) for accommodation details and booking.
+[See our Galloway Sailing Centre listing](/listings/galloway-sailing-centre-accommodation/) for accommodation details and booking.
 
 ### Midday -- Cream o' Galloway
 
@@ -31,7 +31,7 @@ Drive south to Cream o' Galloway, the award-winning organic dairy farm and ice c
 
 The ice cream is exceptional. There is also a good cafe, adventure playground (for any accompanying children), and a farm shop. Dogs are welcome throughout the outdoor areas.
 
-[Explore our Cream o' Galloway listing](/listings/cream-o-galloway) for opening times and what to expect.
+[Explore our Cream o' Galloway listing](/listings/cream-o-galloway/) for opening times and what to expect.
 
 ### Afternoon -- Sandgreen Beach
 
@@ -65,7 +65,7 @@ The House o' Hill Hotel in Bargrennan, at the southern entrance to the Glentrool
 
 On your way back towards home (or the accommodation for one more night), stop at Murray's Monument for a final run. The 2-mile round trip to the obelisk on the open hillside is quick enough to feel like a bonus rather than another commitment, and energetic dogs will appreciate the open moorland after a morning in the forest. The views are wide and the terrain is excellent for a good off-lead run.
 
-[See our Murray's Monument listing](/listings/murrays-monument-walk) for directions.
+[See our Murray's Monument listing](/listings/murrays-monument-walk/) for directions.
 
 ---
 

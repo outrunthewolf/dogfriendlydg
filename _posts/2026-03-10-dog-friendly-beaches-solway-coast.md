@@ -23,7 +23,7 @@ The beach itself is sandy and sheltered, with the kind of calm, shallow water th
 
 Sandgreen is an excellent combination with a visit to Cardoness Castle (just up the road) or a post-walk pint in Gatehouse of Fleet. For a sweet finish, Cream o' Galloway farm is just a short drive away.
 
-[See our full Sandgreen Beach listing](/listings/sandgreen-beach) for parking directions and seasonal notes.
+[See our full Sandgreen Beach listing](/listings/sandgreen-beach/) for parking directions and seasonal notes.
 
 ---
 
@@ -33,7 +33,7 @@ Mersehead is a wilder, more remote prospect -- a long stretch of beach and saltm
 
 Dogs are welcome on leads throughout the reserve. The key seasonal restriction is spring: between approximately March and July, the reserve is important for nesting birds and dogs should be kept on leads and away from the saltmarsh edges. From August through February, dogs are welcome off-lead on the beach -- and this is genuinely the best time to visit. An autumn or winter morning at Mersehead, with thousands of geese in the air and the Cumbrian fells sharp on the horizon, is one of the finest experiences Dumfries and Galloway has to offer. Parking is free at the RSPB reserve car park.
 
-[Explore our full Mersehead Beach listing](/listings/mersehead-beach) for reserve access details and seasonal guidance.
+[Explore our full Mersehead Beach listing](/listings/mersehead-beach/) for reserve access details and seasonal guidance.
 
 ---
 

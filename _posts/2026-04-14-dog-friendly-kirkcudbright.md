@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dog Friendly Kirkcudbright: Walks, Pubs and Where to Stay"
+title: "Dog Friendly Kirkcudbright: Accommodation, Cottages, Walks and Pubs"
 date: 2026-04-14
 categories: [guides]
 tags: [kirkcudbright, dog-friendly, galloway, solway-coast, town-guide, dumfries-and-galloway]

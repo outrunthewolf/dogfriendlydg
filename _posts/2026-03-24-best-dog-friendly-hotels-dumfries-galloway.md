@@ -98,7 +98,7 @@ The Murray Arms is one of those pubs that gets everything right. It's a proper o
 
 As a place to stay with a dog, it's excellent value. The bedrooms are comfortable and traditional, and there's no dog surcharge - a rarity at this quality level. The bar is fully dog-friendly, which means you and your dog can warm up together after a day on the hills without being banished to a damp annexe.
 
-Gatehouse is a lovely base for exploring the Fleet Valley, the Galloway Forest, and the Solway coast. See our [full listing for The Murray Arms](/listings/the-murray-arms-gatehouse) for more detail.
+Gatehouse is a lovely base for exploring the Fleet Valley, the Galloway Forest, and the Solway coast. See our [full listing for The Murray Arms](/listings/the-murray-arms-gatehouse/) for more detail.
 
 **Practical Info:**
 - Address: Ann Street, Gatehouse of Fleet, DG7 2HY

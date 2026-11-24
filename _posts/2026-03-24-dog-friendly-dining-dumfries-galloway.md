@@ -47,7 +47,7 @@ The Murray Arms also offers accommodation with dogs welcome in bedrooms, making 
 - Dogs: Welcome in bar and selected bedrooms
 - Food: Lunch and dinner daily (check seasonal hours)
 - Water bowls: Yes
-- [Full Murray Arms listing on Dog Friendly DG](/listings/the-murray-arms-gatehouse)
+- [Full Murray Arms listing on Dog Friendly DG](/listings/the-murray-arms-gatehouse/)
 
 ### The Masonic Arms
 
@@ -124,7 +124,7 @@ Dogs are welcome in the bar area, and the staff are friendly and relaxed about i
 - Food: Lunch and dinner
 - Water bowls: Yes on request
 - Best for: History, atmosphere, Burns heritage
-- [Full Globe Inn listing on Dog Friendly DG](/listings/the-globe-inn-dumfries)
+- [Full Globe Inn listing on Dog Friendly DG](/listings/the-globe-inn-dumfries/)
 
 ---
 
@@ -180,7 +180,7 @@ The farm is set in lovely countryside in the Galloway hills, and there are walki
 - Food: Cafe menu, ice cream
 - Water bowls: Yes
 - Best for: Families, ice cream, a scenic stop en route
-- [Full Cream o' Galloway listing on Dog Friendly DG](/listings/cream-o-galloway)
+- [Full Cream o' Galloway listing on Dog Friendly DG](/listings/cream-o-galloway/)
 
 ---
 

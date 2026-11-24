@@ -94,7 +94,7 @@ The Murray Arms is our top pick for dog-friendly dining in Dumfries and Galloway
 
 The bar is properly dog-friendly: water bowls at the bar, dog biscuits offered at the counter, and absolutely no suggestion that your muddy Labrador should be anywhere other than beside you on the flagstone floor. The food is excellent - local seafood, game in season, proper Scottish beef - and the ale selection is one of the best in the region.
 
-Dogs are welcome throughout the bar and the beer garden. If you're making a weekend of it, bedrooms are available and there's no dog surcharge. See our [full listing](/listings/the-murray-arms-gatehouse) for more.
+Dogs are welcome throughout the bar and the beer garden. If you're making a weekend of it, bedrooms are available and there's no dog surcharge. See our [full listing](/listings/the-murray-arms-gatehouse/) for more.
 
 **Practical Info:**
 - Address: Ann Street, Gatehouse of Fleet, DG7 2HY
